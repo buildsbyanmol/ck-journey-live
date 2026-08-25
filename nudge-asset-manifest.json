@@ -1,0 +1,2286 @@
+{
+ "_meta": {
+  "source_repo": "ck-nudges (Expo SDK 54 contextual-nudge demo)",
+  "source_assets_root": "<repo>/assets",
+  "generated": "2026-08-24",
+  "file_count": 358,
+  "group_count": 41,
+  "dimension_method": "Pillow was NOT available in this environment. Width/height were read by parsing container headers directly in Python: PNG IHDR, GIF logical screen descriptor, JPEG SOFn, WebP VP8/VP8L/VP8X, MP4 tkhd. SVG width/height attributes, falling back to viewBox. All values are PIXELS as stored on disk (i.e. the 3x/2x/1x raster size, not design px).",
+  "no_dimensions": "*.otf (fonts), *.txt, *.py carry no pixel dimensions and are listed with width/height null.",
+  "svg_note": "SVG entries also carry viewBox where present. SVG width/height are user units, not device pixels.",
+  "magic_mismatch": "Files whose container magic disagrees with the extension carry a 'note' field. One exists: assets/nudges/1/stars video.gif is really an MP4 (720x1280) - AGENTS.md documents this trap.",
+  "empty_directories": [],
+  "files_not_copied": true,
+  "absent_directories": "assets/nudges/6 and assets/frequent/2 are documented in HANDOFF.md as empty designer folders; they do not exist at all in this clone (git does not track empty directories). Nothing is missing from the manifest."
+ },
+ "groups": {
+  "assets": [
+   {
+    "filename": "adaptive-icon.png",
+    "bytes": 17547,
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "filename": "favicon.png",
+    "bytes": 1466,
+    "width": 48,
+    "height": 48
+   },
+   {
+    "filename": "icon.png",
+    "bytes": 22380,
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "filename": "splash-icon.png",
+    "bytes": 17547,
+    "width": 1024,
+    "height": 1024
+   }
+  ],
+  "assets/fonts": [
+   {
+    "filename": "READ-ME-FIRST.txt",
+    "bytes": 129,
+    "width": null,
+    "height": null
+   }
+  ],
+  "assets/fonts/metropolis": [
+   {
+    "filename": "Metropolis-Black.otf",
+    "bytes": 23696,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-BlackItalic.otf",
+    "bytes": 24288,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-Bold.otf",
+    "bytes": 23664,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-BoldItalic.otf",
+    "bytes": 24332,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-ExtraBold.otf",
+    "bytes": 23700,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-ExtraBoldItalic.otf",
+    "bytes": 24588,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-ExtraLight.otf",
+    "bytes": 23080,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-ExtraLightItalic.otf",
+    "bytes": 24284,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-Light.otf",
+    "bytes": 23200,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-LightItalic.otf",
+    "bytes": 24208,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-Medium.otf",
+    "bytes": 23240,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-MediumItalic.otf",
+    "bytes": 24352,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-Regular.otf",
+    "bytes": 23124,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-RegularItalic.otf",
+    "bytes": 24236,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-SemiBold.otf",
+    "bytes": 23480,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-SemiBoldItalic.otf",
+    "bytes": 24284,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-Thin.otf",
+    "bytes": 22920,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "Metropolis-ThinItalic.otf",
+    "bytes": 24052,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "SIL Open Font License.txt",
+    "bytes": 4374,
+    "width": null,
+    "height": null
+   }
+  ],
+  "assets/fr01": [
+   {
+    "filename": "arrow.png",
+    "bytes": 5233,
+    "width": 111,
+    "height": 166
+   },
+   {
+    "filename": "bell.gif",
+    "bytes": 113525,
+    "width": 150,
+    "height": 150
+   },
+   {
+    "filename": "bg-top.png",
+    "bytes": 116185,
+    "width": 360,
+    "height": 692
+   },
+   {
+    "filename": "button.png",
+    "bytes": 19063,
+    "width": 261,
+    "height": 75
+   },
+   {
+    "filename": "cross.png",
+    "bytes": 1390,
+    "width": 60,
+    "height": 60
+   },
+   {
+    "filename": "flash-section.png",
+    "bytes": 999950,
+    "width": 1047,
+    "height": 1440
+   },
+   {
+    "filename": "page.png",
+    "bytes": 1617732,
+    "width": 659,
+    "height": 4096
+   },
+   {
+    "filename": "scrim.png",
+    "bytes": 14141,
+    "width": 1080,
+    "height": 2076
+   },
+   {
+    "filename": "snackbar.png",
+    "bytes": 142340,
+    "width": 990,
+    "height": 372
+   }
+  ],
+  "assets/fr02": [
+   {
+    "filename": "badge.png",
+    "bytes": 17296,
+    "width": 300,
+    "height": 138
+   },
+   {
+    "filename": "bg-art.png",
+    "bytes": 132917,
+    "width": 684,
+    "height": 264
+   },
+   {
+    "filename": "card.png",
+    "bytes": 96280,
+    "width": 305,
+    "height": 202
+   },
+   {
+    "filename": "ck.png",
+    "bytes": 1821,
+    "width": 42,
+    "height": 42
+   },
+   {
+    "filename": "page.png",
+    "bytes": 742135,
+    "width": 1080,
+    "height": 2742
+   },
+   {
+    "filename": "shine.png",
+    "bytes": 19939,
+    "width": 522,
+    "height": 345
+   }
+  ],
+  "assets/frequent": [
+   {
+    "filename": "HOW-TO-USE.txt",
+    "bytes": 402,
+    "width": null,
+    "height": null
+   }
+  ],
+  "assets/frequent/1": [
+   {
+    "filename": "BELL.gif",
+    "bytes": 113525,
+    "width": 150,
+    "height": 150
+   },
+   {
+    "filename": "BG.png",
+    "bytes": 116185,
+    "width": 360,
+    "height": 692
+   },
+   {
+    "filename": "BUTTON.svg",
+    "bytes": 5303,
+    "width": 87,
+    "height": 25,
+    "viewBox": "0 0 87 25"
+   },
+   {
+    "filename": "CROSS ICON.svg",
+    "bytes": 720,
+    "width": 20,
+    "height": 20,
+    "viewBox": "0 0 20 20"
+   },
+   {
+    "filename": "SNACKBAR.svg",
+    "bytes": 3770730,
+    "width": 330,
+    "height": 124,
+    "viewBox": "0 0 330 124"
+   },
+   {
+    "filename": "Vector.png",
+    "bytes": 894,
+    "width": 37,
+    "height": 56
+   },
+   {
+    "filename": "image 67139.png",
+    "bytes": 256716,
+    "width": 349,
+    "height": 480
+   }
+  ],
+  "assets/in01": [
+   {
+    "filename": "chevron.png",
+    "bytes": 1406,
+    "width": 96,
+    "height": 96
+   },
+   {
+    "filename": "fab-new.png",
+    "bytes": 60724,
+    "width": 504,
+    "height": 504
+   },
+   {
+    "filename": "fab.png",
+    "bytes": 24537,
+    "width": 216,
+    "height": 216
+   },
+   {
+    "filename": "home-sharp.png",
+    "bytes": 576735,
+    "width": 1080,
+    "height": 2340
+   },
+   {
+    "filename": "home.png",
+    "bytes": 923379,
+    "width": 1080,
+    "height": 2342
+   },
+   {
+    "filename": "ribbon-glow.png",
+    "bytes": 74199,
+    "width": 861,
+    "height": 291
+   },
+   {
+    "filename": "ribbon.png",
+    "bytes": 156214,
+    "width": 768,
+    "height": 216
+   },
+   {
+    "filename": "shine.png",
+    "bytes": 19939,
+    "width": 522,
+    "height": 345
+   },
+   {
+    "filename": "wallet.png",
+    "bytes": 29987,
+    "width": 183,
+    "height": 216
+   }
+  ],
+  "assets/installed": [
+   {
+    "filename": "HOW-TO-USE.txt",
+    "bytes": 429,
+    "width": null,
+    "height": null
+   }
+  ],
+  "assets/installed/1": [
+   {
+    "filename": "BG.svg",
+    "bytes": 1746112,
+    "width": 277,
+    "height": 87,
+    "viewBox": "0 0 277 87"
+   },
+   {
+    "filename": "Double Down.png",
+    "bytes": 340,
+    "width": 16,
+    "height": 12
+   },
+   {
+    "filename": "FAB.png",
+    "bytes": 14420,
+    "width": 299,
+    "height": 72
+   },
+   {
+    "filename": "GRADIENT.png",
+    "bytes": 66808,
+    "width": 360,
+    "height": 393
+   },
+   {
+    "filename": "TOURNAMENT GLOW.png",
+    "bytes": 9341,
+    "width": 91,
+    "height": 65
+   },
+   {
+    "filename": "WALLET ICON.png",
+    "bytes": 5297,
+    "width": 57,
+    "height": 64
+   }
+  ],
+  "assets/la01": [
+   {
+    "filename": "arrow.png",
+    "bytes": 1202,
+    "width": 92,
+    "height": 68
+   },
+   {
+    "filename": "button.png",
+    "bytes": 12308,
+    "width": 984,
+    "height": 144
+   },
+   {
+    "filename": "circle.png",
+    "bytes": 47097,
+    "width": 339,
+    "height": 339
+   },
+   {
+    "filename": "container.png",
+    "bytes": 459415,
+    "width": 870,
+    "height": 528
+   },
+   {
+    "filename": "homepage.png",
+    "bytes": 576735,
+    "width": 1080,
+    "height": 2340
+   },
+   {
+    "filename": "logo.png",
+    "bytes": 48699,
+    "width": 254,
+    "height": 221
+   },
+   {
+    "filename": "note-bottom.png",
+    "bytes": 17316,
+    "width": 252,
+    "height": 252
+   },
+   {
+    "filename": "note-icon-left.png",
+    "bytes": 12285,
+    "width": 180,
+    "height": 180
+   },
+   {
+    "filename": "note-icon-right.png",
+    "bytes": 12325,
+    "width": 201,
+    "height": 192
+   },
+   {
+    "filename": "note-top.png",
+    "bytes": 30269,
+    "width": 233,
+    "height": 193
+   },
+   {
+    "filename": "ring.png",
+    "bytes": 10764,
+    "width": 343,
+    "height": 330
+   },
+   {
+    "filename": "sheet-bg.png",
+    "bytes": 1025848,
+    "width": 1083,
+    "height": 1458
+   },
+   {
+    "filename": "stars.webp",
+    "bytes": 3730238,
+    "width": 512,
+    "height": 288
+   },
+   {
+    "filename": "wave.png",
+    "bytes": 41220,
+    "width": 738,
+    "height": 231
+   }
+  ],
+  "assets/la02": [
+   {
+    "filename": "button-lit.png",
+    "bytes": 55909,
+    "width": 504,
+    "height": 144
+   },
+   {
+    "filename": "button.png",
+    "bytes": 53561,
+    "width": 504,
+    "height": 144
+   },
+   {
+    "filename": "cross-glyph.png",
+    "bytes": 412,
+    "width": 72,
+    "height": 72
+   },
+   {
+    "filename": "glow.png",
+    "bytes": 74533,
+    "width": 360,
+    "height": 369
+   },
+   {
+    "filename": "gradient.png",
+    "bytes": 251799,
+    "width": 360,
+    "height": 713
+   },
+   {
+    "filename": "homepage.png",
+    "bytes": 586180,
+    "width": 1080,
+    "height": 2342
+   },
+   {
+    "filename": "nav.png",
+    "bytes": 14367,
+    "width": 1077,
+    "height": 175
+   },
+   {
+    "filename": "note-left-lit.png",
+    "bytes": 8387,
+    "width": 144,
+    "height": 165
+   },
+   {
+    "filename": "note-left.png",
+    "bytes": 8247,
+    "width": 144,
+    "height": 165
+   },
+   {
+    "filename": "note-right-lit.png",
+    "bytes": 8122,
+    "width": 129,
+    "height": 162
+   },
+   {
+    "filename": "note-right.png",
+    "bytes": 8359,
+    "width": 129,
+    "height": 162
+   },
+   {
+    "filename": "rays-build.py",
+    "bytes": 1663,
+    "width": null,
+    "height": null
+   },
+   {
+    "filename": "rays.png",
+    "bytes": 77535,
+    "width": 432,
+    "height": 432
+   },
+   {
+    "filename": "wallet-lit.png",
+    "bytes": 110741,
+    "width": 324,
+    "height": 396
+   },
+   {
+    "filename": "wallet.png",
+    "bytes": 112046,
+    "width": 324,
+    "height": 396
+   }
+  ],
+  "assets/la03": [
+   {
+    "filename": "button.png",
+    "bytes": 12207,
+    "width": 981,
+    "height": 144
+   },
+   {
+    "filename": "card-chrome.png",
+    "bytes": 15454,
+    "width": 405,
+    "height": 540
+   },
+   {
+    "filename": "homepage.png",
+    "bytes": 576735,
+    "width": 1080,
+    "height": 2340
+   },
+   {
+    "filename": "logo-amazon.png",
+    "bytes": 38981,
+    "width": 216,
+    "height": 189
+   },
+   {
+    "filename": "logo-flipkart.png",
+    "bytes": 38697,
+    "width": 223,
+    "height": 195
+   },
+   {
+    "filename": "logo-myntra.png",
+    "bytes": 18880,
+    "width": 180,
+    "height": 148
+   },
+   {
+    "filename": "note-bottom.png",
+    "bytes": 11773,
+    "width": 216,
+    "height": 186
+   },
+   {
+    "filename": "note-top.png",
+    "bytes": 18026,
+    "width": 306,
+    "height": 252
+   },
+   {
+    "filename": "rate-2-5.png",
+    "bytes": 3125,
+    "width": 165,
+    "height": 72
+   },
+   {
+    "filename": "rate-3-6.png",
+    "bytes": 3392,
+    "width": 165,
+    "height": 72
+   },
+   {
+    "filename": "rate-4-8.png",
+    "bytes": 3193,
+    "width": 165,
+    "height": 72
+   },
+   {
+    "filename": "sheet-bg.png",
+    "bytes": 1055728,
+    "width": 1080,
+    "height": 1494
+   }
+  ],
+  "assets/la04": [
+   {
+    "filename": "arrow-trend.png",
+    "bytes": 460,
+    "width": 48,
+    "height": 27
+   },
+   {
+    "filename": "banner-bleed.png",
+    "bytes": 150051,
+    "width": 1080,
+    "height": 390
+   },
+   {
+    "filename": "banner-green.png",
+    "bytes": 42196,
+    "width": 1080,
+    "height": 390
+   },
+   {
+    "filename": "banner-sky.png",
+    "bytes": 105601,
+    "width": 1080,
+    "height": 390
+   },
+   {
+    "filename": "banner-social.png",
+    "bytes": 133054,
+    "width": 1080,
+    "height": 390
+   },
+   {
+    "filename": "banner.png",
+    "bytes": 148848,
+    "width": 1080,
+    "height": 330
+   },
+   {
+    "filename": "note-a.png",
+    "bytes": 11369,
+    "width": 186,
+    "height": 169
+   },
+   {
+    "filename": "note-b.png",
+    "bytes": 10792,
+    "width": 183,
+    "height": 141
+   },
+   {
+    "filename": "note-left.png",
+    "bytes": 15471,
+    "width": 174,
+    "height": 174
+   },
+   {
+    "filename": "note-right.png",
+    "bytes": 18173,
+    "width": 267,
+    "height": 267
+   },
+   {
+    "filename": "page-bottom.png",
+    "bytes": 80152,
+    "width": 1080,
+    "height": 831
+   },
+   {
+    "filename": "page-top.png",
+    "bytes": 1192277,
+    "width": 1080,
+    "height": 6525
+   },
+   {
+    "filename": "statusbar-glyphs.png",
+    "bytes": 4649,
+    "width": 1080,
+    "height": 75
+   },
+   {
+    "filename": "statusbar.png",
+    "bytes": 5272,
+    "width": 1080,
+    "height": 75
+   }
+  ],
+  "assets/la05": [
+   {
+    "filename": "arrow-trend-up.png",
+    "bytes": 895,
+    "width": 48,
+    "height": 27
+   },
+   {
+    "filename": "banner.png",
+    "bytes": 78411,
+    "width": 1080,
+    "height": 282
+   },
+   {
+    "filename": "cta-shadow.png",
+    "bytes": 10639,
+    "width": 1080,
+    "height": 63
+   },
+   {
+    "filename": "note-a.png",
+    "bytes": 11369,
+    "width": 186,
+    "height": 169
+   },
+   {
+    "filename": "note-b.png",
+    "bytes": 10792,
+    "width": 183,
+    "height": 141
+   },
+   {
+    "filename": "page-a.png",
+    "bytes": 1073002,
+    "width": 1080,
+    "height": 6225
+   },
+   {
+    "filename": "page-b.png",
+    "bytes": 55567,
+    "width": 1080,
+    "height": 669
+   },
+   {
+    "filename": "page-c.png",
+    "bytes": 26027,
+    "width": 1080,
+    "height": 399
+   },
+   {
+    "filename": "statusbar.png",
+    "bytes": 5210,
+    "width": 1080,
+    "height": 75
+   }
+  ],
+  "assets/lapsed": [
+   {
+    "filename": "HOW-TO-USE.txt",
+    "bytes": 411,
+    "width": null,
+    "height": null
+   }
+  ],
+  "assets/lapsed/1": [
+   {
+    "filename": "Button.svg",
+    "bytes": 14262,
+    "width": 328,
+    "height": 48,
+    "viewBox": "0 0 328 48"
+   },
+   {
+    "filename": "Homepage.png",
+    "bytes": 115798,
+    "width": 360,
+    "height": 780
+   },
+   {
+    "filename": "bottom note.png",
+    "bytes": 5455,
+    "width": 72,
+    "height": 62
+   },
+   {
+    "filename": "circle.svg",
+    "bytes": 424,
+    "width": 113,
+    "height": 113,
+    "viewBox": "0 0 113 113"
+   },
+   {
+    "filename": "container.png",
+    "bytes": 61837,
+    "width": 290,
+    "height": 176
+   },
+   {
+    "filename": "logo.png",
+    "bytes": 8795,
+    "width": 85,
+    "height": 74
+   },
+   {
+    "filename": "top note.png",
+    "bytes": 6205,
+    "width": 78,
+    "height": 65
+   },
+   {
+    "filename": "top sheet bg .svg",
+    "bytes": 594276,
+    "width": 361,
+    "height": 486,
+    "viewBox": "0 0 361 486"
+   }
+  ],
+  "assets/lapsed/2": [
+   {
+    "filename": "Frame 1991635714.svg",
+    "bytes": 5922,
+    "width": 168,
+    "height": 48,
+    "viewBox": "0 0 168 48"
+   },
+   {
+    "filename": "Homepage.png",
+    "bytes": 117018,
+    "width": 360,
+    "height": 781
+   },
+   {
+    "filename": "bottom nav bar.svg",
+    "bytes": 21793,
+    "width": 359,
+    "height": 59,
+    "viewBox": "0 0 359 59"
+   },
+   {
+    "filename": "cross icohn.png",
+    "bytes": 848,
+    "width": 40,
+    "height": 40
+   },
+   {
+    "filename": "gradientbg.png",
+    "bytes": 251799,
+    "width": 360,
+    "height": 713
+   },
+   {
+    "filename": "note left.svg",
+    "bytes": 5463,
+    "width": 48,
+    "height": 55,
+    "viewBox": "0 0 48 55"
+   },
+   {
+    "filename": "note right.svg",
+    "bytes": 5363,
+    "width": 43,
+    "height": 54,
+    "viewBox": "0 0 43 54"
+   },
+   {
+    "filename": "tournament_glow 1.png",
+    "bytes": 74533,
+    "width": 360,
+    "height": 369
+   },
+   {
+    "filename": "wallet icon.svg",
+    "bytes": 1049143,
+    "width": 108,
+    "height": 132,
+    "viewBox": "0 0 108 132"
+   }
+  ],
+  "assets/lapsed/3": [
+   {
+    "filename": "brand 1 .svg",
+    "bytes": 120313,
+    "width": 135,
+    "height": 180,
+    "viewBox": "0 0 135 180"
+   },
+   {
+    "filename": "brand 2 .svg",
+    "bytes": 2152575,
+    "width": 135,
+    "height": 180,
+    "viewBox": "0 0 135 180"
+   },
+   {
+    "filename": "brand 3 .svg",
+    "bytes": 986018,
+    "width": 79,
+    "height": 180,
+    "viewBox": "0 0 79 180"
+   },
+   {
+    "filename": "button.svg",
+    "bytes": 14262,
+    "width": 327,
+    "height": 48,
+    "viewBox": "0 0 327 48"
+   },
+   {
+    "filename": "note bottom.svg",
+    "bytes": 5565,
+    "width": 72,
+    "height": 62,
+    "viewBox": "0 0 72 62"
+   },
+   {
+    "filename": "note top.svg",
+    "bytes": 4893,
+    "width": 102,
+    "height": 84,
+    "viewBox": "0 0 102 84"
+   },
+   {
+    "filename": "top sheet bg.svg",
+    "bytes": 594059,
+    "width": 360,
+    "height": 498,
+    "viewBox": "0 0 360 498"
+   }
+  ],
+  "assets/lapsed/4": [
+   {
+    "filename": "bg .svg",
+    "bytes": 3366,
+    "width": 453,
+    "height": 98,
+    "viewBox": "0 0 453 98"
+   },
+   {
+    "filename": "note 1 .svg",
+    "bytes": 5636,
+    "width": 59,
+    "height": 65,
+    "viewBox": "0 0 59 65"
+   },
+   {
+    "filename": "note 2 .svg",
+    "bytes": 5672,
+    "width": 90,
+    "height": 51,
+    "viewBox": "0 0 90 51"
+   },
+   {
+    "filename": "note 3 .svg",
+    "bytes": 4890,
+    "width": 78,
+    "height": 65,
+    "viewBox": "0 0 78 65"
+   },
+   {
+    "filename": "note 4 .svg",
+    "bytes": 5573,
+    "width": 93,
+    "height": 77,
+    "viewBox": "0 0 93 77"
+   },
+   {
+    "filename": "note 5 .svg",
+    "bytes": 5558,
+    "width": 60,
+    "height": 78,
+    "viewBox": "0 0 60 78"
+   },
+   {
+    "filename": "wallet .png",
+    "bytes": 4657,
+    "width": 76,
+    "height": 76
+   }
+  ],
+  "assets/lapsed/5": [
+   {
+    "filename": "arrow-trend-up.png",
+    "bytes": 318,
+    "width": 16,
+    "height": 9
+   },
+   {
+    "filename": "bg of nudge.svg",
+    "bytes": 4344,
+    "width": 360,
+    "height": 94,
+    "viewBox": "0 0 360 94"
+   },
+   {
+    "filename": "note 2.svg",
+    "bytes": 5570,
+    "width": 95,
+    "height": 92,
+    "viewBox": "0 0 95 92"
+   },
+   {
+    "filename": "note1 .svg",
+    "bytes": 4867,
+    "width": 83,
+    "height": 87,
+    "viewBox": "0 0 83 87"
+   },
+   {
+    "filename": "storepage.png",
+    "bytes": 282689,
+    "width": 360,
+    "height": 2477
+   }
+  ],
+  "assets/nu01": [
+   {
+    "filename": "chevron.gif",
+    "bytes": 20577,
+    "width": 150,
+    "height": 150
+   },
+   {
+    "filename": "cross-glyph.png",
+    "bytes": 412,
+    "width": 72,
+    "height": 72
+   },
+   {
+    "filename": "emoji.png",
+    "bytes": 887019,
+    "width": 953,
+    "height": 1024
+   },
+   {
+    "filename": "glow.png",
+    "bytes": 77353,
+    "width": 360,
+    "height": 369
+   },
+   {
+    "filename": "homepage.png",
+    "bytes": 382525,
+    "width": 720,
+    "height": 1561
+   },
+   {
+    "filename": "icon-home.png",
+    "bytes": 299,
+    "width": 24,
+    "height": 24
+   },
+   {
+    "filename": "icon-missions.png",
+    "bytes": 499,
+    "width": 19,
+    "height": 20
+   },
+   {
+    "filename": "icon-profile.png",
+    "bytes": 687,
+    "width": 29,
+    "height": 23
+   },
+   {
+    "filename": "icon-referrals.png",
+    "bytes": 563,
+    "width": 24,
+    "height": 24
+   },
+   {
+    "filename": "icon-wallet.png",
+    "bytes": 337,
+    "width": 24,
+    "height": 25
+   },
+   {
+    "filename": "nav-confirmed.png",
+    "bytes": 14672,
+    "width": 1080,
+    "height": 190
+   },
+   {
+    "filename": "nav-container.png",
+    "bytes": 899,
+    "width": 360,
+    "height": 63
+   },
+   {
+    "filename": "note-fall-left.png",
+    "bytes": 5763,
+    "width": 112,
+    "height": 102
+   },
+   {
+    "filename": "note-fall-right.png",
+    "bytes": 5977,
+    "width": 120,
+    "height": 137
+   },
+   {
+    "filename": "note-left.png",
+    "bytes": 11272,
+    "width": 356,
+    "height": 451
+   },
+   {
+    "filename": "note-right.png",
+    "bytes": 7996,
+    "width": 138,
+    "height": 138
+   },
+   {
+    "filename": "notes-strip.png",
+    "bytes": 17111,
+    "width": 1080,
+    "height": 699
+   },
+   {
+    "filename": "rays.png",
+    "bytes": 117245,
+    "width": 900,
+    "height": 900
+   },
+   {
+    "filename": "stars.webp",
+    "bytes": 3730238,
+    "width": 512,
+    "height": 288
+   }
+  ],
+  "assets/nu02": [
+   {
+    "filename": "amount-15.png",
+    "bytes": 13395,
+    "width": 294,
+    "height": 120
+   },
+   {
+    "filename": "glow.png",
+    "bytes": 76655,
+    "width": 360,
+    "height": 369
+   },
+   {
+    "filename": "homepage.png",
+    "bytes": 123135,
+    "width": 360,
+    "height": 781
+   },
+   {
+    "filename": "nav-confirmed.png",
+    "bytes": 12601,
+    "width": 1080,
+    "height": 199
+   },
+   {
+    "filename": "nav-wallet.png",
+    "bytes": 643,
+    "width": 72,
+    "height": 73
+   },
+   {
+    "filename": "note-left.png",
+    "bytes": 1020,
+    "width": 29,
+    "height": 55
+   },
+   {
+    "filename": "note-right.png",
+    "bytes": 1467,
+    "width": 38,
+    "height": 46
+   },
+   {
+    "filename": "tutorial.png",
+    "bytes": 235892,
+    "width": 360,
+    "height": 800
+   },
+   {
+    "filename": "wallet-hero.png",
+    "bytes": 126089,
+    "width": 312,
+    "height": 315
+   },
+   {
+    "filename": "wallet-row.png",
+    "bytes": 9196,
+    "width": 840,
+    "height": 60
+   }
+  ],
+  "assets/nu03": [
+   {
+    "filename": "icon-back.png",
+    "bytes": 292,
+    "width": 72,
+    "height": 72
+   },
+   {
+    "filename": "icon-chevron.png",
+    "bytes": 375,
+    "width": 72,
+    "height": 72
+   },
+   {
+    "filename": "icon-filter.png",
+    "bytes": 757,
+    "width": 48,
+    "height": 48
+   },
+   {
+    "filename": "logo-ajio.png",
+    "bytes": 13319,
+    "width": 416,
+    "height": 121
+   },
+   {
+    "filename": "logo-ck.png",
+    "bytes": 1838,
+    "width": 69,
+    "height": 60
+   },
+   {
+    "filename": "q-glyph.png",
+    "bytes": 1046,
+    "width": 50,
+    "height": 89
+   },
+   {
+    "filename": "shine.png",
+    "bytes": 523,
+    "width": 60,
+    "height": 240
+   },
+   {
+    "filename": "statusbar.png",
+    "bytes": 8640,
+    "width": 1080,
+    "height": 72
+   }
+  ],
+  "assets/nu04": [
+   {
+    "filename": "browser.png",
+    "bytes": 16199,
+    "width": 1086,
+    "height": 222
+   },
+   {
+    "filename": "dot.png",
+    "bytes": 723,
+    "width": 36,
+    "height": 36
+   },
+   {
+    "filename": "icon-back.png",
+    "bytes": 505,
+    "width": 48,
+    "height": 48
+   },
+   {
+    "filename": "icon-cart.png",
+    "bytes": 1491,
+    "width": 72,
+    "height": 72
+   },
+   {
+    "filename": "icon-check.png",
+    "bytes": 2735,
+    "width": 72,
+    "height": 72
+   },
+   {
+    "filename": "icon-info.png",
+    "bytes": 1457,
+    "width": 48,
+    "height": 48
+   },
+   {
+    "filename": "icon-pace.png",
+    "bytes": 2251,
+    "width": 72,
+    "height": 72
+   },
+   {
+    "filename": "line.png",
+    "bytes": 1384,
+    "width": 441,
+    "height": 3
+   },
+   {
+    "filename": "logo-tata-1mg.png",
+    "bytes": 9689,
+    "width": 473,
+    "height": 106
+   },
+   {
+    "filename": "statusbar.png",
+    "bytes": 5418,
+    "width": 1080,
+    "height": 72
+   },
+   {
+    "filename": "tip-arrow.png",
+    "bytes": 175,
+    "width": 36,
+    "height": 18
+   }
+  ],
+  "assets/nu05": [
+   {
+    "filename": "arrow-1.png",
+    "bytes": 7128,
+    "width": 103,
+    "height": 163
+   },
+   {
+    "filename": "arrow-2.png",
+    "bytes": 6878,
+    "width": 66,
+    "height": 179
+   },
+   {
+    "filename": "arrow-3.png",
+    "bytes": 6914,
+    "width": 125,
+    "height": 145
+   },
+   {
+    "filename": "arrow-4.png",
+    "bytes": 6953,
+    "width": 92,
+    "height": 171
+   },
+   {
+    "filename": "chevron.png",
+    "bytes": 1052,
+    "width": 72,
+    "height": 159
+   },
+   {
+    "filename": "emoji-fire.png",
+    "bytes": 10294,
+    "width": 87,
+    "height": 87
+   },
+   {
+    "filename": "emoji-monocle.png",
+    "bytes": 10658,
+    "width": 87,
+    "height": 87
+   },
+   {
+    "filename": "emoji-rupee.png",
+    "bytes": 14997,
+    "width": 90,
+    "height": 90
+   },
+   {
+    "filename": "emoji-teary.png",
+    "bytes": 13100,
+    "width": 96,
+    "height": 92
+   },
+   {
+    "filename": "page-scroll.png",
+    "bytes": 1297431,
+    "width": 607,
+    "height": 4096
+   },
+   {
+    "filename": "page-top.png",
+    "bytes": 1347577,
+    "width": 636,
+    "height": 4096
+   }
+  ],
+  "assets/nu06": [
+   {
+    "filename": "arrow-1.png",
+    "bytes": 1818,
+    "width": 95,
+    "height": 170
+   },
+   {
+    "filename": "arrow-2.png",
+    "bytes": 1742,
+    "width": 111,
+    "height": 166
+   },
+   {
+    "filename": "arrow-3.png",
+    "bytes": 1742,
+    "width": 111,
+    "height": 166
+   },
+   {
+    "filename": "corner-tl.png",
+    "bytes": 631,
+    "width": 60,
+    "height": 60
+   },
+   {
+    "filename": "page.png",
+    "bytes": 1085377,
+    "width": 1080,
+    "height": 6897
+   }
+  ],
+  "assets/nu07": [
+   {
+    "filename": "page.png",
+    "bytes": 380926,
+    "width": 360,
+    "height": 1697
+   }
+  ],
+  "assets/nu08": [
+   {
+    "filename": "b1-guy-left.png",
+    "bytes": 221339,
+    "width": 557,
+    "height": 707
+   },
+   {
+    "filename": "b1-guy-right.png",
+    "bytes": 179189,
+    "width": 348,
+    "height": 462
+   },
+   {
+    "filename": "b1-link.png",
+    "bytes": 53034,
+    "width": 396,
+    "height": 414
+   },
+   {
+    "filename": "b2-boy.png",
+    "bytes": 173890,
+    "width": 397,
+    "height": 497
+   },
+   {
+    "filename": "b2-shoe.png",
+    "bytes": 189418,
+    "width": 467,
+    "height": 518
+   },
+   {
+    "filename": "b3-hifive.png",
+    "bytes": 236730,
+    "width": 612,
+    "height": 385
+   },
+   {
+    "filename": "b3-phone.png",
+    "bytes": 205541,
+    "width": 404,
+    "height": 534
+   },
+   {
+    "filename": "back-btn.png",
+    "bytes": 11988,
+    "width": 264,
+    "height": 264
+   },
+   {
+    "filename": "coins-bl-glow.png",
+    "bytes": 53016,
+    "width": 286,
+    "height": 266
+   },
+   {
+    "filename": "coins-bl.png",
+    "bytes": 37794,
+    "width": 286,
+    "height": 266
+   },
+   {
+    "filename": "coins-tr-glow.png",
+    "bytes": 59576,
+    "width": 330,
+    "height": 267
+   },
+   {
+    "filename": "coins-tr.png",
+    "bytes": 40497,
+    "width": 330,
+    "height": 267
+   },
+   {
+    "filename": "note-fall-left.png",
+    "bytes": 5763,
+    "width": 112,
+    "height": 102
+   },
+   {
+    "filename": "note-fall-right.png",
+    "bytes": 5977,
+    "width": 120,
+    "height": 137
+   },
+   {
+    "filename": "notes.png",
+    "bytes": 24836,
+    "width": 336,
+    "height": 354
+   },
+   {
+    "filename": "page.png",
+    "bytes": 2088538,
+    "width": 1080,
+    "height": 5778
+   },
+   {
+    "filename": "plate1.png",
+    "bytes": 444352,
+    "width": 1080,
+    "height": 825
+   },
+   {
+    "filename": "plate2.png",
+    "bytes": 444901,
+    "width": 1080,
+    "height": 825
+   },
+   {
+    "filename": "plate3.png",
+    "bytes": 441843,
+    "width": 1080,
+    "height": 825
+   },
+   {
+    "filename": "rays.png",
+    "bytes": 84498,
+    "width": 965,
+    "height": 965
+   },
+   {
+    "filename": "shelf.png",
+    "bytes": 5473,
+    "width": 1080,
+    "height": 225
+   },
+   {
+    "filename": "star-big.png",
+    "bytes": 3488,
+    "width": 184,
+    "height": 184
+   },
+   {
+    "filename": "star-small.png",
+    "bytes": 1663,
+    "width": 92,
+    "height": 92
+   },
+   {
+    "filename": "statusbar.png",
+    "bytes": 4649,
+    "width": 1080,
+    "height": 75
+   }
+  ],
+  "assets/nu09": [
+   {
+    "filename": "amount.png",
+    "bytes": 27470,
+    "width": 417,
+    "height": 120
+   },
+   {
+    "filename": "brand.png",
+    "bytes": 66234,
+    "width": 306,
+    "height": 306
+   },
+   {
+    "filename": "earn-pill.png",
+    "bytes": 10978,
+    "width": 210,
+    "height": 210
+   },
+   {
+    "filename": "earn-strip.png",
+    "bytes": 14022,
+    "width": 780,
+    "height": 60
+   },
+   {
+    "filename": "homepage.png",
+    "bytes": 239955,
+    "width": 607,
+    "height": 1316
+   },
+   {
+    "filename": "nav-flat.png",
+    "bytes": 12882,
+    "width": 720,
+    "height": 177
+   },
+   {
+    "filename": "nav.png",
+    "bytes": 14381,
+    "width": 1080,
+    "height": 178
+   },
+   {
+    "filename": "note-left.png",
+    "bytes": 9029,
+    "width": 106,
+    "height": 90
+   },
+   {
+    "filename": "star-empty.png",
+    "bytes": 1831,
+    "width": 111,
+    "height": 106
+   },
+   {
+    "filename": "star-gold.png",
+    "bytes": 3337,
+    "width": 111,
+    "height": 106
+   }
+  ],
+  "assets/nudges": [
+   {
+    "filename": "HOW-TO-USE.txt",
+    "bytes": 913,
+    "width": null,
+    "height": null
+   }
+  ],
+  "assets/nudges/1": [
+   {
+    "filename": "Homepage.png",
+    "bytes": 382525,
+    "width": 720,
+    "height": 1561
+   },
+   {
+    "filename": "bottom nav container.png",
+    "bytes": 899,
+    "width": 360,
+    "height": 63
+   },
+   {
+    "filename": "cross icon.png",
+    "bytes": 1025,
+    "width": 360,
+    "height": 40
+   },
+   {
+    "filename": "home icon.png",
+    "bytes": 299,
+    "width": 24,
+    "height": 24
+   },
+   {
+    "filename": "icon gif .gif",
+    "bytes": 20577,
+    "width": 150,
+    "height": 150
+   },
+   {
+    "filename": "mission icon.png",
+    "bytes": 499,
+    "width": 19,
+    "height": 20
+   },
+   {
+    "filename": "new notes.svg",
+    "bytes": 9228,
+    "width": 360,
+    "height": 233,
+    "viewBox": "0 0 360 233"
+   },
+   {
+    "filename": "note left side.png",
+    "bytes": 1597,
+    "width": 73,
+    "height": 150
+   },
+   {
+    "filename": "note rigth side.png",
+    "bytes": 1467,
+    "width": 38,
+    "height": 46
+   },
+   {
+    "filename": "profile icon.png",
+    "bytes": 687,
+    "width": 29,
+    "height": 23
+   },
+   {
+    "filename": "referral icon.png",
+    "bytes": 563,
+    "width": 24,
+    "height": 24
+   },
+   {
+    "filename": "smile icon.png",
+    "bytes": 887019,
+    "width": 953,
+    "height": 1024
+   },
+   {
+    "filename": "stars video bg.mp4",
+    "bytes": 2050544,
+    "width": 720,
+    "height": 1280
+   },
+   {
+    "filename": "stars video.gif",
+    "bytes": 2050544,
+    "width": 720,
+    "height": 1280,
+    "note": "extension says gif, file magic says mp4"
+   },
+   {
+    "filename": "tournament_glow 2.png",
+    "bytes": 76632,
+    "width": 360,
+    "height": 369
+   },
+   {
+    "filename": "wallet icon.png",
+    "bytes": 337,
+    "width": 24,
+    "height": 25
+   }
+  ],
+  "assets/nudges/2": [
+   {
+    "filename": "Group 1321317686.png",
+    "bytes": 1467,
+    "width": 38,
+    "height": 46
+   },
+   {
+    "filename": "Group 1321317842.png",
+    "bytes": 1020,
+    "width": 29,
+    "height": 55
+   },
+   {
+    "filename": "bottom nav bar.png",
+    "bytes": 3596,
+    "width": 360,
+    "height": 67
+   },
+   {
+    "filename": "complete tutorial page.png",
+    "bytes": 235892,
+    "width": 360,
+    "height": 800
+   },
+   {
+    "filename": "cross icon.png",
+    "bytes": 848,
+    "width": 40,
+    "height": 40
+   },
+   {
+    "filename": "homepage.png",
+    "bytes": 123135,
+    "width": 360,
+    "height": 781
+   },
+   {
+    "filename": "nav icon wallet.png",
+    "bytes": 337,
+    "width": 24,
+    "height": 25
+   },
+   {
+    "filename": "tournament_glow 1.png",
+    "bytes": 76655,
+    "width": 360,
+    "height": 369
+   },
+   {
+    "filename": "tutorial button.png",
+    "bytes": 217,
+    "width": 328,
+    "height": 48
+   },
+   {
+    "filename": "tutorial page.png",
+    "bytes": 241022,
+    "width": 360,
+    "height": 800
+   },
+   {
+    "filename": "wallet icon.png",
+    "bytes": 15861,
+    "width": 104,
+    "height": 105
+   }
+  ],
+  "assets/nudges/3": [
+   {
+    "filename": "Component 212.png",
+    "bytes": 2221,
+    "width": 59,
+    "height": 59
+   },
+   {
+    "filename": "My Order Details.png",
+    "bytes": 40003,
+    "width": 360,
+    "height": 799
+   }
+  ],
+  "assets/nudges/4": [
+   {
+    "filename": "My Order Details Inside Page.png",
+    "bytes": 41849,
+    "width": 362,
+    "height": 1188
+   },
+   {
+    "filename": "tooltip icon.png",
+    "bytes": 490,
+    "width": 16,
+    "height": 16
+   },
+   {
+    "filename": "tooltip.png",
+    "bytes": 11357,
+    "width": 250,
+    "height": 88
+   },
+   {
+    "filename": "tooltip.svg",
+    "bytes": 1198,
+    "width": 250,
+    "height": 88,
+    "viewBox": "0 0 250 88"
+   }
+  ],
+  "assets/nudges/5": [
+   {
+    "filename": "70e59557727eb7ac34ce3e8db8ca2c563a414cc6.png",
+    "bytes": 329603,
+    "width": 1024,
+    "height": 959
+   },
+   {
+    "filename": "Face with Monocle.svg",
+    "bytes": 13375,
+    "width": 29,
+    "height": 29,
+    "viewBox": "0 0 29 29"
+   },
+   {
+    "filename": "Smiling Face with Fire-Eyes.svg",
+    "bytes": 21857,
+    "width": 29,
+    "height": 29,
+    "viewBox": "0 0 29 29"
+   },
+   {
+    "filename": "Teary Hopeful Face with Hearts.svg",
+    "bytes": 82336,
+    "width": 33,
+    "height": 31,
+    "viewBox": "0 0 33 31"
+   },
+   {
+    "filename": "arrow vector.svg",
+    "bytes": 1543,
+    "width": 34,
+    "height": 54,
+    "viewBox": "0 0 34 54"
+   },
+   {
+    "filename": "border .svg",
+    "bytes": 447,
+    "width": 348,
+    "height": 70,
+    "viewBox": "0 0 348 70"
+   },
+   {
+    "filename": "icon-park_down.svg",
+    "bytes": 508,
+    "width": 24,
+    "height": 53,
+    "viewBox": "0 0 24 53"
+   }
+  ],
+  "assets/nudges/7": [
+   {
+    "filename": "My favourites.png",
+    "bytes": 380926,
+    "width": 360,
+    "height": 1697
+   }
+  ],
+  "assets/nudges/8": [
+   {
+    "filename": "Refer & Earn page visit.png",
+    "bytes": 171688,
+    "width": 360,
+    "height": 1926
+   },
+   {
+    "filename": "bg 1 .png",
+    "bytes": 69279,
+    "width": 360,
+    "height": 251
+   },
+   {
+    "filename": "bg 1 guy 1 .png",
+    "bytes": 49979,
+    "width": 230,
+    "height": 292
+   },
+   {
+    "filename": "bg 1 guy 2 .png",
+    "bytes": 40766,
+    "width": 143,
+    "height": 183
+   },
+   {
+    "filename": "bg 1 icon.png",
+    "bytes": 11193,
+    "width": 164,
+    "height": 171
+   },
+   {
+    "filename": "bg 2 .png",
+    "bytes": 70294,
+    "width": 360,
+    "height": 251
+   },
+   {
+    "filename": "bg 2 image.png",
+    "bytes": 76479,
+    "width": 276,
+    "height": 224
+   },
+   {
+    "filename": "bg 3 .png",
+    "bytes": 88175,
+    "width": 360,
+    "height": 251
+   },
+   {
+    "filename": "bg 3 image 2 .png",
+    "bytes": 42468,
+    "width": 205,
+    "height": 129
+   },
+   {
+    "filename": "bg 3 img 1 .png",
+    "bytes": 52347,
+    "width": 154,
+    "height": 184
+   },
+   {
+    "filename": "complete refere and earn page with header.png",
+    "bytes": 297021,
+    "width": 360,
+    "height": 1926
+   }
+  ],
+  "assets/nudges/9": [
+   {
+    "filename": "70e59557727eb7ac34ce3e8db8ca2c563a414cc6.png",
+    "bytes": 329603,
+    "width": 1024,
+    "height": 959
+   },
+   {
+    "filename": "Group 1321317686.png",
+    "bytes": 1467,
+    "width": 38,
+    "height": 46
+   },
+   {
+    "filename": "Group 1321317842.png",
+    "bytes": 1437,
+    "width": 44,
+    "height": 55
+   },
+   {
+    "filename": "bottom nav bar.png",
+    "bytes": 4040,
+    "width": 360,
+    "height": 60
+   },
+   {
+    "filename": "brand icon.png",
+    "bytes": 12891,
+    "width": 102,
+    "height": 102
+   },
+   {
+    "filename": "colored star.svg",
+    "bytes": 1051,
+    "width": 37,
+    "height": 36,
+    "viewBox": "0 0 37 36"
+   },
+   {
+    "filename": "cross icon.png",
+    "bytes": 848,
+    "width": 40,
+    "height": 40
+   },
+   {
+    "filename": "home icon.png",
+    "bytes": 299,
+    "width": 24,
+    "height": 24
+   },
+   {
+    "filename": "icon gif.gif",
+    "bytes": 20577,
+    "width": 150,
+    "height": 150
+   },
+   {
+    "filename": "mission icon.png",
+    "bytes": 499,
+    "width": 19,
+    "height": 20
+   },
+   {
+    "filename": "profile icon.png",
+    "bytes": 690,
+    "width": 29,
+    "height": 23
+   },
+   {
+    "filename": "referral icon.png",
+    "bytes": 563,
+    "width": 24,
+    "height": 24
+   },
+   {
+    "filename": "stars video bg.mp4",
+    "bytes": 2050544,
+    "width": 720,
+    "height": 1280
+   },
+   {
+    "filename": "wallet icon nav bar.png",
+    "bytes": 337,
+    "width": 24,
+    "height": 25
+   }
+  ],
+  "assets/storepage/figma": [
+   {
+    "filename": "cat-apparel.png",
+    "bytes": 249928,
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "filename": "cat-beauty.png",
+    "bytes": 154791,
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "filename": "cat-footwear.png",
+    "bytes": 364155,
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "filename": "cat-mobiles.png",
+    "bytes": 131724,
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "filename": "cat-smarthome.png",
+    "bytes": 14547,
+    "width": 128,
+    "height": 128
+   },
+   {
+    "filename": "coin.png",
+    "bytes": 24572,
+    "width": 227,
+    "height": 152
+   },
+   {
+    "filename": "flipkart-logo.png",
+    "bytes": 8708,
+    "width": 196,
+    "height": 98
+   },
+   {
+    "filename": "gmail-3d.png",
+    "bytes": 119510,
+    "width": 324,
+    "height": 324
+   },
+   {
+    "filename": "social-proof.png",
+    "bytes": 16413,
+    "width": 783,
+    "height": 72
+   },
+   {
+    "filename": "strip-union.png",
+    "bytes": 148890,
+    "width": 2219,
+    "height": 425
+   },
+   {
+    "filename": "wallet-illustration.png",
+    "bytes": 241409,
+    "width": 600,
+    "height": 408
+   }
+  ],
+  "assets/thumbs": [
+   {
+    "filename": "fr-01.png",
+    "bytes": 58680,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "fr-02.png",
+    "bytes": 64624,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "in-01.png",
+    "bytes": 41205,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "la-01.png",
+    "bytes": 45591,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "la-02.png",
+    "bytes": 44987,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "la-03.png",
+    "bytes": 43820,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "la-04.png",
+    "bytes": 39863,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "la-05.png",
+    "bytes": 42970,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-01.png",
+    "bytes": 49077,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-02.png",
+    "bytes": 47744,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-03.png",
+    "bytes": 19117,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-04.png",
+    "bytes": 19080,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-05.png",
+    "bytes": 32323,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-06.png",
+    "bytes": 33619,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-07.png",
+    "bytes": 45687,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-08.png",
+    "bytes": 49160,
+    "width": 186,
+    "height": 252
+   },
+   {
+    "filename": "nu-09.png",
+    "bytes": 28748,
+    "width": 186,
+    "height": 252
+   }
+  ]
+ }
+}

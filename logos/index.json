@@ -1,0 +1,4648 @@
+{
+  "_captured": {
+    "date": "2026-08-24",
+    "source": "https://cashkaro.com",
+    "image_host": "https://asset21.ckassets.com/resources/image/stores/",
+    "where_the_urls_came_from": "attributes.image_url on every offer row returned by the 16 category listing pages under https://cashkaro.com/products/home-categories-exclusive/<slug>. Same harvest as data/category-stores.json. Downloaded byte-for-byte with no re-encoding and no resizing.",
+    "filename_rule": "Mechanical, from the site's own display name (attributes.name): lowercase, \"&\" becomes \"and\", every run of non-alphanumeric characters becomes a single \"-\", leading and trailing \"-\" trimmed. The extension is taken from the source URL, never from the name. Because the rule uses the site's display name and not a tidied brand name, some files carry the site's own suffixes: \"Amazon India\" gives amazon-india.jpg and \"Flipkart CB Affoy\" gives flipkart-cb-affoy.png. Use the aliases block below to resolve a clean brand name to a file.",
+    "collision_rule": "If two display names reduce to the same filename, the first in alphabetical order by the site's unique_identifier keeps the derived name and the second falls back to its unique_identifier as the filename. Nothing is ever overwritten. Every occurrence is recorded in near_collisions below.",
+    "extension_caveat": "The extension comes from the URL and the site does not always name its files after their real format. Where the header disagrees with the extension it is flagged extension_matches_format: false on that entry. The bytes are untouched either way - the file was NOT re-encoded and was NOT renamed, because renaming would break the stated rule that the extension comes from the URL.",
+    "dimensions_method": "read from the file header (PNG IHDR, JPEG SOFn, GIF logical screen descriptor). No decode.",
+    "second_source": "Three stores are on the homepage Most Popular Brands rail but in none of the 16 category listings: FirstCry, Acer and IGP. Their logo URLs were taken from the recommended_offers page element of the homepage __NEXT_DATA__ payload, the same capture and the same date. They carry categories: [] to say observed-absent, not not-checked."
+  },
+  "logos": {
+    "Accor Hotels": {
+      "filename": "accor-hotels.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/accor-coupons-1735633749.jpg",
+      "bytes": 28942,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "accor-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Acer": {
+      "filename": "acer.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/acer-offers-1735623800.jpg",
+      "bytes": 39240,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "acer-offers",
+      "store_id": "15364",
+      "categories": [],
+      "source_note": "Not in any category listing. Taken from the homepage Most Popular Brands rail (page element recommended_offers) in the homepage __NEXT_DATA__ payload. categories is [] by observation, not by omission."
+    },
+    "AGEasy": {
+      "filename": "ageasy.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ageasy-coupons-1772534200.png",
+      "bytes": 113209,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "ageasy-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Health & Wellness",
+        "New on CashKaro"
+      ]
+    },
+    "Agoda": {
+      "filename": "agoda.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/agoda-1784609454.png",
+      "bytes": 24316,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "agoda",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Air India": {
+      "filename": "air-india.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/air-india-coupons-1780573968.png",
+      "bytes": 21127,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "air-india-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Air India Express": {
+      "filename": "air-india-express.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/air-india-express-coupons-1765869350.png",
+      "bytes": 23855,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "air-india-express-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Airtel Payments Bank": {
+      "filename": "airtel-payments-bank.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/airtel-payments-bank-offers-1776145170.png",
+      "bytes": 7760,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "airtel-payments-bank",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AJIO": {
+      "filename": "ajio.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ajio-coupons-1735561339.jpg",
+      "bytes": 31313,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "ajio-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Fashion"
+      ]
+    },
+    "AJIO Luxe": {
+      "filename": "ajio-luxe.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ajio-luxe-test-1742907498.png",
+      "bytes": 10699,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "ajio-luxe",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "AjioGram": {
+      "filename": "ajiogram.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ajio-gram-1731912222.png",
+      "bytes": 5857,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "ajio-gram",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Ajmal Perfumes": {
+      "filename": "ajmal-perfumes.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ajmal-perfumes-coupons1-1770804735.png",
+      "bytes": 29097,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "ajmal-perfumes-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Amazon Beauty": {
+      "filename": "amazon-beauty.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/amazon-beauty-offers-1758477322.png",
+      "bytes": 32001,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "amazon-beauty-offers",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Amazon Fashion & Clothing": {
+      "filename": "amazon-fashion-and-clothing.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/amazon-clothing-1758477313.png",
+      "bytes": 32493,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "amazon-clothing",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Amazon India": {
+      "filename": "amazon-india.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/amazon-1735629515.jpg",
+      "bytes": 39207,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "amazon",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Food & Grocery",
+        "Mobiles",
+        "Departmental"
+      ]
+    },
+    "Amazon India Health & Personal Care": {
+      "filename": "amazon-india-health-and-personal-care.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/amazon-health-personal-care-1782906986.png",
+      "bytes": 35352,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "amazon-health-personal-care",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Amazon Kitchen & Dining": {
+      "filename": "amazon-kitchen-and-dining.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/amazon-kitchen-dining-1781682001.png",
+      "bytes": 33865,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "amazon-kitchen-dining",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "Amazon Large Appliances": {
+      "filename": "amazon-large-appliances.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/amazon-large-appliances-1781681968.png",
+      "bytes": 34265,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "amazon-large-appliances",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Aqualogica": {
+      "filename": "aqualogica.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/aqualogica-coupons-1690539040.png",
+      "bytes": 9005,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "aqualogica-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming"
+      ]
+    },
+    "Art of Puja": {
+      "filename": "art-of-puja.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/art-of-puja-coupons-1777531195.png",
+      "bytes": 42294,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "art-of-puja-coupons",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen",
+        "New on CashKaro"
+      ]
+    },
+    "ASUS": {
+      "filename": "asus.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/asus-coupons-test-1750247458.png",
+      "bytes": 13297,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "asus-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "AU Bank Altura Plus Credit Card": {
+      "filename": "au-bank-altura-plus-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-bank-altura-credit-card-1773380323.png",
+      "bytes": 35143,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-bank-altura-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU Bank Ananta Credit Card": {
+      "filename": "au-bank-ananta-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-bank-ananta-credit-card-1778130316.png",
+      "bytes": 35323,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-bank-ananta-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU Bank Laksya Credit Card": {
+      "filename": "au-bank-laksya-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-bank-laksya-credit-card-1778131615.png",
+      "bytes": 35965,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-bank-laksya-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU Bank Prathama Credit Card": {
+      "filename": "au-bank-prathama-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-bank-prathama-credit-card-1778134817.png",
+      "bytes": 35886,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-bank-prathama-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU Bank Tejas Credit Card": {
+      "filename": "au-bank-tejas-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-bank-tejas-credit-card-1778135401.png",
+      "bytes": 34994,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-bank-tejas-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU Bank Vetta Credit Card": {
+      "filename": "au-bank-vetta-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-bank-vetta-credit-card-1773381358.png",
+      "bytes": 34643,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-bank-vetta-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU LIT Credit Card": {
+      "filename": "au-lit-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-bank-lit-credit-card-1740288571.png",
+      "bytes": 33739,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-bank-lit-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU NOMO Credit Card": {
+      "filename": "au-nomo-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-nomo-credit-card-1740288581.png",
+      "bytes": 35468,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-nomo-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "AU Zenith Credit Card": {
+      "filename": "au-zenith-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/au-zenith-credit-card-1777373907.png",
+      "bytes": 30454,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "au-zenith-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Ace Credit Card": {
+      "filename": "axis-ace-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bank-karo-axis-ace-1758863196.png",
+      "bytes": 35795,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bank-karo-axis-ace",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Airtel Rupay Credit Card": {
+      "filename": "axis-airtel-rupay-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-airtel-credit-card-1754559935.png",
+      "bytes": 19901,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "axis-airtel-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Bank Indigo Credit Card": {
+      "filename": "axis-bank-indigo-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-bank-indigo-credit-card-1771926410.png",
+      "bytes": 18134,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "axis-bank-indigo-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Bank Personal Loan": {
+      "filename": "axis-bank-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axisbank-personal-loan-1743421167.png",
+      "bytes": 19874,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "axisbank-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Axis Cashback Credit Card": {
+      "filename": "axis-cashback-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-bank-cashback-credit-card-1750414063.png",
+      "bytes": 20984,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "axis-bank-cashback-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Flipkart Credit Card": {
+      "filename": "axis-flipkart-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bank-karo-axis-flipkart-1759675165.png",
+      "bytes": 35981,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bank-karo-axis-flipkart",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Horizon Credit Card": {
+      "filename": "axis-horizon-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bank-karo-axis-horizon-1758863218.png",
+      "bytes": 36879,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-horizon-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Indian Oil Rupay Credit Card": {
+      "filename": "axis-indian-oil-rupay-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-bank-indian-oil-rupay-credit-card-1740288245.png",
+      "bytes": 36684,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-bank-indian-oil-rupay-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis LIC Platinum Credit Card": {
+      "filename": "axis-lic-platinum-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-lic-platinum-credit-card-1740648245.png",
+      "bytes": 36815,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-lic-platinum-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis LIC Signature Credit Card": {
+      "filename": "axis-lic-signature-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-lic-signature-credit-card-1740648255.png",
+      "bytes": 37701,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-lic-signature-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Magnus Credit Card": {
+      "filename": "axis-magnus-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-bank-magnus-credit-card-1740288261.png",
+      "bytes": 37216,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-bank-magnus-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis MyZone Rupay Credit Card": {
+      "filename": "axis-myzone-rupay-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bank-karo-axis-my-zone-1740288393.png",
+      "bytes": 36740,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bank-karo-axis-my-zone",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Neo Rupay Credit Card": {
+      "filename": "axis-neo-rupay-credit-card.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-neo-rupay-credit-card-1761629159.jpg",
+      "bytes": 19319,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-neo-rupay-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Privilege Amex Credit Card": {
+      "filename": "axis-privilege-amex-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-bank-privilege-amex-credit-card-1752143656.png",
+      "bytes": 21321,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "axis-privilege-amex-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Privilege Credit Card": {
+      "filename": "axis-privilege-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-bank-privilege-credit-card-1740288413.png",
+      "bytes": 36478,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-bank-privilege-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Privilege Visa Credit Card": {
+      "filename": "axis-privilege-visa-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-privilege-visa-credit-card-1759296797.png",
+      "bytes": 37203,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-privilege-visa-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Rewards Visa Credit Card": {
+      "filename": "axis-rewards-visa-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-rewards-credit-card-1761891299.png",
+      "bytes": 20838,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "axis-rewards-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Samsung Signature Credit Card": {
+      "filename": "axis-samsung-signature-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-samsung-signature-credit-card-1740288454.png",
+      "bytes": 38140,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-samsung-signature-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Axis Select Credit Card": {
+      "filename": "axis-select-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/axis-bank-select-credit-card-1740288466.png",
+      "bytes": 36142,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "axis-bank-select-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Bacca Bucci": {
+      "filename": "bacca-bucci.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bacca-bucci-coupons-1783078510.png",
+      "bytes": 8674,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bacca-bucci-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Bajaj Finserv Personal Loan": {
+      "filename": "bajaj-finserv-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bajajfinserv-personal-loan-1745561267.png",
+      "bytes": 12463,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bajajfinserv-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "BankKaro Personal Loan": {
+      "filename": "bankkaro-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bankkaro-loan-1747222603.png",
+      "bytes": 15171,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bankkaro-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Be Neude": {
+      "filename": "be-neude.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/be-neude-coupons-1782741975.png",
+      "bytes": 13133,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "be-neude-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Beco": {
+      "filename": "beco.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/beco-coupons-1780566165.png",
+      "bytes": 11017,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "beco-coupons",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "Bella Vita": {
+      "filename": "bella-vita.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bella-vita-coupons-1735627845.jpg",
+      "bytes": 28579,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "bella-vita-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "BeYoung": {
+      "filename": "beyoung.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/beyoung-coupons-1765428764.png",
+      "bytes": 7987,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "beyoung-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "BHIM UPI": {
+      "filename": "bhim-upi.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bhim-app-coupons-test-1753247838.png",
+      "bytes": 18761,
+      "width": 760,
+      "height": 369,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "bhim-app-coupons",
+      "store_id": null,
+      "categories": [
+        "New on CashKaro"
+      ]
+    },
+    "boAt": {
+      "filename": "boat.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/boat-coupon-1735627937.jpg",
+      "bytes": 34559,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "boat-coupon",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "BOBCARD Credit Cards": {
+      "filename": "bobcard-credit-cards.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bobcard-credit-card-1764142659.png",
+      "bytes": 28240,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bob-credit-cards",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "BOBCARD Eterna Credit Card": {
+      "filename": "bobcard-eterna-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bobcard-eterna-credit-card-1763982656.png",
+      "bytes": 23051,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "bobcard-eterna-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Bookchor": {
+      "filename": "bookchor.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bookchor-coupons-1781861199.png",
+      "bytes": 39706,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "bookchor-coupons",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "Booking.com": {
+      "filename": "booking-com.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/booking-1735641926.jpg",
+      "bytes": 41525,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "booking",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Brillare": {
+      "filename": "brillare.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/brillare-coupons-1772104361.png",
+      "bytes": 3339,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "brillare-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "British Council": {
+      "filename": "british-council.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/britishcouncil-coupons-1735638851.jpg",
+      "bytes": 48798,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "britishcouncil-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "Cahoot": {
+      "filename": "cahoot.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/cahoot-coupons-1781867640.png",
+      "bytes": 24207,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "cahoot-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "City Gold Tea": {
+      "filename": "city-gold-tea.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/citygoldtea-coupons-1763530928.png",
+      "bytes": 57883,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "citygoldtea-coupons",
+      "store_id": null,
+      "categories": [
+        "Food & Grocery"
+      ]
+    },
+    "Clarity Labs": {
+      "filename": "clarity-labs.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/clarity-labs-coupons-1778222933.png",
+      "bytes": 20909,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "clarity-labs-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming",
+        "New on CashKaro"
+      ]
+    },
+    "Cleartrip Flights": {
+      "filename": "cleartrip-flights.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/cleartrip-1773982548.png",
+      "bytes": 17434,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "cleartrip",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Cleartrip Hotels": {
+      "filename": "cleartrip-hotels.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/cleartrip-hotel-coupons-1743593095.png",
+      "bytes": 21475,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "cleartrip-hotel-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "ClearVPN": {
+      "filename": "clearvpn.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/clearvpn-coupons-1735633718.jpg",
+      "bytes": 30862,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "clearvpn-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Min 50% Cashback"
+      ]
+    },
+    "Controlz World": {
+      "filename": "controlz-world.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/controlz-coupon-codes-1745231057.png",
+      "bytes": 8267,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "controlz-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "CosIQ": {
+      "filename": "cosiq.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/cosiq-coupons-1761634790.jpg",
+      "bytes": 73780,
+      "width": 2001,
+      "height": 2000,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "cosiq-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "CreditSea Personal Loan": {
+      "filename": "creditsea-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/creditsea-personal-loan-1786099528.png",
+      "bytes": 15216,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "creditsea-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Croma": {
+      "filename": "croma.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/croma-1735627272.jpg",
+      "bytes": 28588,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "croma",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Curiously Positive": {
+      "filename": "curiously-positive.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/curiously-positive-coupons-1783417284.png",
+      "bytes": 45265,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "curiously-positive-coupons",
+      "store_id": null,
+      "categories": [
+        "Min 50% Cashback",
+        "Health & Wellness",
+        "New on CashKaro"
+      ]
+    },
+    "Daily Objects": {
+      "filename": "daily-objects.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/daily-objects-coupons-1781851455.jpg",
+      "bytes": 32211,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "daily-objects-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "DCB Novio Credit Card": {
+      "filename": "dcb-novio-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/dcb-novio-fd-backed-credit-card-coupons-test-1785134023.png",
+      "bytes": 62646,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "dcb-novio-fixed-deposit-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Decathlon": {
+      "filename": "decathlon.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/decathalon-coupon-1763446029.png",
+      "bytes": 9271,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "decathlon-coupon",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Dell": {
+      "filename": "dell.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/dell-1735623662.jpg",
+      "bytes": 37840,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "dell",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Dot & Key": {
+      "filename": "dot-and-key.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/dotandkey-coupons-1716552540.png",
+      "bytes": 7092,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "dotandkey-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming"
+      ]
+    },
+    "Dr. Sheth's": {
+      "filename": "dr-sheth-s.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/dr-sheths-coupons-new-1785925052.png",
+      "bytes": 14511,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "dr-sheths-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Duolingo": {
+      "filename": "duolingo.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/duolingo-promo-codes-test-1754569696.png",
+      "bytes": 14512,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "duolingo-promo-codes",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "Durex": {
+      "filename": "durex.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/durex-india-offers-1778846864.png",
+      "bytes": 28090,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "durex-india-offers",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Dyson": {
+      "filename": "dyson.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/dyson-discount-codes-1735635553.jpg",
+      "bytes": 33965,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "dyson-discount-codes",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "Element 14": {
+      "filename": "element-14.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/element14-coupons-1735625396.jpg",
+      "bytes": 37803,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "element14-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Elver": {
+      "filename": "elver.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/elver-coupons-1783340331.png",
+      "bytes": 10026,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "elver-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Emergent": {
+      "filename": "emergent.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/emergent-coupons-1786968608.png",
+      "bytes": 9125,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "emergent-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "New on CashKaro"
+      ]
+    },
+    "Etihad Airways": {
+      "filename": "etihad-airways.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/etihad-airways-coupons-1781865637.jpg",
+      "bytes": 43523,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "etihad-airways-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Expedia Partnerize": {
+      "filename": "expedia-partnerize.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/expedia-flightbookings-1735639557.jpg",
+      "bytes": 37221,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "expedia-flightbookings",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Fibe Personal Loan": {
+      "filename": "fibe-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/fibe-personal-loan-coupons-1777881269.png",
+      "bytes": 1950,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "fibe-personal-loan-coupons",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "FirstCry": {
+      "filename": "firstcry.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/firstcry-1735625223.jpg",
+      "bytes": 40037,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "firstcry",
+      "store_id": "10043132",
+      "categories": [],
+      "source_note": "Not in any category listing. Taken from the homepage Most Popular Brands rail (page element recommended_offers) in the homepage __NEXT_DATA__ payload. categories is [] by observation, not by omission."
+    },
+    "FIRSTmoney by IDFC FIRST Bank Personal Loan": {
+      "filename": "firstmoney-by-idfc-first-bank-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-firstmoney-smart-personal-loan-1725020673.png",
+      "bytes": 8318,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-firstmoney-smart-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Flipkart CB Affoy": {
+      "filename": "flipkart-cb-affoy.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/flipkart-1768222060.png",
+      "bytes": 16438,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "flipkart",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Fashion",
+        "Beauty & Grooming"
+      ]
+    },
+    "Forest Essentials India": {
+      "filename": "forest-essentials-india.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/forestessentialsindia-coupons-1735628573.jpg",
+      "bytes": 45511,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "forestessentialsindia-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Foxtale": {
+      "filename": "foxtale.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/foxtale-coupons-1735635292.jpg",
+      "bytes": 34437,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "foxtale-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming"
+      ]
+    },
+    "Fraganote": {
+      "filename": "fraganote.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/fraganote-coupons-1787565121.png",
+      "bytes": 20874,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "fraganote-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming",
+        "New on CashKaro"
+      ]
+    },
+    "Fuel One": {
+      "filename": "fuel-one.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/fuel-one-coupons-1771392357.png",
+      "bytes": 11081,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "fuel-one-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Gabit Skincare": {
+      "filename": "gabit-skincare.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/gabit-coupons-1741360955.png",
+      "bytes": 28729,
+      "width": 760,
+      "height": 353,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "gabit-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "GetYourGuide": {
+      "filename": "getyourguide.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/getyourguide-coupons-test-1740472860.png",
+      "bytes": 17290,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "getyourguide-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Ghar Soaps": {
+      "filename": "ghar-soaps.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/gharsoaps-coupon-codes-1762428155.png",
+      "bytes": 19904,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "gharsoaps-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming"
+      ]
+    },
+    "Go Noise": {
+      "filename": "go-noise.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/gonoise-coupons-1735625425.jpg",
+      "bytes": 31611,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "gonoise-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics",
+        "Mobiles"
+      ]
+    },
+    "Goibibo Hotels": {
+      "filename": "goibibo-hotels.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/goibibo-hotels-1759903406.png",
+      "bytes": 20732,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "goibibo-hotels",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "goSTOPS": {
+      "filename": "gostops.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/gostops-coupons-1783678646.png",
+      "bytes": 38234,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "gostops-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels",
+        "New on CashKaro"
+      ]
+    },
+    "GRE": {
+      "filename": "gre.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/gre-coupon-code-1754897618.png",
+      "bytes": 17121,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "gre-coupon-code",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "Gritzo": {
+      "filename": "gritzo.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/gritzo-coupons-1765949345.png",
+      "bytes": 10316,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "gritzo-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "GUVI Adzurite": {
+      "filename": "guvi-adzurite.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/guvi-coupons-1735647229.jpg",
+      "bytes": 37428,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "guvi-coupons",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "Haldiram": {
+      "filename": "haldiram.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/haldiram-coupons-1785319099.png",
+      "bytes": 141060,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "haldiram-coupons",
+      "store_id": null,
+      "categories": [
+        "Food & Grocery"
+      ]
+    },
+    "Hamara Mall": {
+      "filename": "hamara-mall.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hamara-mall-coupons-1777964926.png",
+      "bytes": 86429,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hamara-mall-coupons",
+      "store_id": null,
+      "categories": [
+        "Departmental"
+      ]
+    },
+    "Havells": {
+      "filename": "havells.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/havells-coupons-1580197106.png",
+      "bytes": 2727,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "havells-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "HDFC Bank BizBlack Credit Card": {
+      "filename": "hdfc-bank-bizblack-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-bank-bizblack-metal-edition-credit-card-1759989890.png",
+      "bytes": 22782,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "hdfc-bank-bizblack-metal-edition-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank BizFirst Credit Card": {
+      "filename": "hdfc-bank-bizfirst-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bizfirst-hdfc-bank-credit-card-offers-test-1759988519.png",
+      "bytes": 14502,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-bank-bizfirst-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank BizGrow Credit Card": {
+      "filename": "hdfc-bank-bizgrow-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bizgrow-hdfc-bank-credit-card-offers-test-1759988736.png",
+      "bytes": 15594,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-bank-bizgrow-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank BizPower Credit Card": {
+      "filename": "hdfc-bank-bizpower-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/bizpower-hdfc-bank-credit-card-offers-test-1759988295.png",
+      "bytes": 15465,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-bank-bizpower-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank Credit Card": {
+      "filename": "hdfc-bank-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-credit-card-offers-1740288673.png",
+      "bytes": 14026,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-credit-card-offers",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank Diners Club Credit Card": {
+      "filename": "hdfc-bank-diners-club-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-bank-diners-credit-card-1759315714.png",
+      "bytes": 23880,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "hdfc-bank-diners-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank Indian Oil Credit Card": {
+      "filename": "hdfc-bank-indian-oil-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indian-oil-hdfc-bank-credit-card-offers-test-1759141890.png",
+      "bytes": 14696,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-bank-indian-oil-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank Marriott Credit Card": {
+      "filename": "hdfc-bank-marriott-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-bank-marriott-credit-card-offers-1740288748.png",
+      "bytes": 15047,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-bank-marriott-credit-card-offers",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Bank Personal Loan": {
+      "filename": "hdfc-bank-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfcbank-personal-loan-1743417204.png",
+      "bytes": 15276,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfcbank-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "HDFC Bank Regalia Gold Credit Card": {
+      "filename": "hdfc-bank-regalia-gold-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/regalia-hdfc-bank-credit-card-offers-test-1759141964.png",
+      "bytes": 14475,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "regalia-hdfc-bank-credit-card-offers",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Instant Loan": {
+      "filename": "hdfc-instant-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-loan-on-credit-card-1740288820.png",
+      "bytes": 14076,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-loan-on-credit-card",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "HDFC IRCTC Credit Card": {
+      "filename": "hdfc-irctc-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/irctc-hdfc-bank-credit-card-offers-1740288875.png",
+      "bytes": 14075,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "irctc-hdfc-bank-credit-card-offers",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Millennia Credit Card": {
+      "filename": "hdfc-millennia-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-millennia-credit-card-1750778369.png",
+      "bytes": 14311,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-millennia-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Pixel Go Credit Card": {
+      "filename": "hdfc-pixel-go-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-pixel-go-credit-card-test-1746514947.png",
+      "bytes": 14274,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-pixel-go-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Pixel Play Credit Card": {
+      "filename": "hdfc-pixel-play-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-pixel-credit-card-offers-1744610326.png",
+      "bytes": 13968,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-bank-pixel-play-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC RuPay Credit Card": {
+      "filename": "hdfc-rupay-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-bank-rupay-credit-card-offers-1740288889.png",
+      "bytes": 14401,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-bank-rupay-credit-card-offers",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Shoppers Stop Credit Card": {
+      "filename": "hdfc-shoppers-stop-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-shoppers-stop-credit-card-1740288900.png",
+      "bytes": 16563,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-shoppers-stop-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Smart EMI": {
+      "filename": "hdfc-smart-emi.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-smart-emi-1740288959.png",
+      "bytes": 13404,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-smart-emi",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "HDFC Swiggy BLCK Credit Card": {
+      "filename": "hdfc-swiggy-blck-credit-card.jfif",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-blck-swiggy-credit-card-offers-1775713952.jfif",
+      "bytes": 25102,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-swiggy-blck-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HDFC Swiggy Ornge Credit Card": {
+      "filename": "hdfc-swiggy-ornge-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hdfc-ornge-swiggy-credit-card-offers-1775713983.png",
+      "bytes": 24007,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hdfc-swiggy-ornge-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HealthKart": {
+      "filename": "healthkart.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/healthkart-1735638256.jpg",
+      "bytes": 33329,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "healthkart",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "HK Vitals": {
+      "filename": "hk-vitals.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hk-vitals-coupons-1735637609.jpg",
+      "bytes": 39318,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "hk-vitals-coupons",
+      "store_id": null,
+      "categories": [
+        "Pharmacy",
+        "Health & Wellness"
+      ]
+    },
+    "Hotels.com Partnerize": {
+      "filename": "hotels-com-partnerize.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hotels-com-1738236496.png",
+      "bytes": 33829,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hotels-com",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "House Of Koala": {
+      "filename": "house-of-koala.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/house-of-koala-offers-1745230983.png",
+      "bytes": 49371,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "house-of-koala-offers",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "HP": {
+      "filename": "hp.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hp-coupon-codes-1764223620.png",
+      "bytes": 17106,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hp-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "HSBC Platinum Credit Card": {
+      "filename": "hsbc-platinum-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hsbc-platinum-credit-card-1760087739.png",
+      "bytes": 13779,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hsbc-platinum-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "HSBC Travel One Credit Card": {
+      "filename": "hsbc-travel-one-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hsbc-travelone-credit-card-1742457365.png",
+      "bytes": 14208,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hsbc-travelone-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Hummel": {
+      "filename": "hummel.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hummel-coupons-1783685018.png",
+      "bytes": 14618,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hummel-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Fashion"
+      ]
+    },
+    "Hyphen": {
+      "filename": "hyphen.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hyphen-coupon-codes-1777980437.png",
+      "bytes": 24836,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "hyphen-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming"
+      ]
+    },
+    "Hyugalife": {
+      "filename": "hyugalife.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/hyugalife-coupons-1735639138.jpg",
+      "bytes": 41166,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "hyugalife-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Health & Wellness"
+      ]
+    },
+    "IBA Cosmetics": {
+      "filename": "iba-cosmetics.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/iba-cosmetics-coupons-1763622398.png",
+      "bytes": 9749,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "iba-cosmetics-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "IDFC FIRST Bank Ashva Credit Card": {
+      "filename": "idfc-first-bank-ashva-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-first-ashva-credit-card-1747739571.png",
+      "bytes": 17835,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-first-ashva-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IDFC FIRST Bank Mayura Credit Card": {
+      "filename": "idfc-first-bank-mayura-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-first-mayura-credit-card-1741857785.png",
+      "bytes": 55815,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-first-mayura-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IDFC First Credit Card": {
+      "filename": "idfc-first-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-first-credit-card-1741857744.png",
+      "bytes": 54872,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-first-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IDFC FIRST Earn Credit Card": {
+      "filename": "idfc-first-earn-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-bank-first-earn-credit-card-1747398792.png",
+      "bytes": 19820,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "idfc-bank-first-earn-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IDFC FIRST Hello Cashback Credit Card": {
+      "filename": "idfc-first-hello-cashback-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-first-hello-cashback-credit-card-1769753238.png",
+      "bytes": 19757,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-first-hello-cashback-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IDFC First Power Plus Credit Card": {
+      "filename": "idfc-first-power-plus-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-first-power-plus-credit-card-1741857730.png",
+      "bytes": 56757,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-first-power-plus-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IDFC FIRST Wow Black Credit Card": {
+      "filename": "idfc-first-wow-black-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-first-wow-black-credit-card-1765784162.png",
+      "bytes": 19666,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-first-wow-black-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IDFC FIRST WOW Credit Card": {
+      "filename": "idfc-first-wow-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/idfc-first-wow-credit-card-1741857770.png",
+      "bytes": 55681,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "idfc-first-wow-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IGP": {
+      "filename": "igp.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indian-gifts-portal-1690802311.png",
+      "bytes": 3414,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indian-gifts-portal",
+      "store_id": "24432",
+      "categories": [],
+      "source_note": "Not in any category listing. Taken from the homepage Most Popular Brands rail (page element recommended_offers) in the homepage __NEXT_DATA__ payload. categories is [] by observation, not by omission."
+    },
+    "IHG": {
+      "filename": "ihg.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ihg-coupons-1735634458.jpg",
+      "bytes": 34334,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "ihg-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Indian Oil RBL Bank Credit Card": {
+      "filename": "indian-oil-rbl-bank-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indianoil-rbl-bank-credit-card-1740289392.png",
+      "bytes": 18334,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indianoil-rbl-bank-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Indian Oil RBL Bank XTRA Credit Card": {
+      "filename": "indian-oil-rbl-bank-xtra-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indianoil-rbl-bank-xtra-credit-card-1743763987.png",
+      "bytes": 19391,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indianoil-rbl-bank-xtra-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IndiGo IDFC FIRST Dual Credit Cards": {
+      "filename": "indigo-idfc-first-dual-credit-cards.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indigo-idfc-first-dual-credit-card-1755511265.png",
+      "bytes": 19248,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indigo-idfc-first-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Indus Astro": {
+      "filename": "indus-astro.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indus-astro-coupons-1767703005.png",
+      "bytes": 14991,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indus-astro-coupons",
+      "store_id": null,
+      "categories": [
+        "New on CashKaro"
+      ]
+    },
+    "IndusInd Avios Platinum Visa Credit Card": {
+      "filename": "indusind-avios-platinum-visa-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indusindavios-platinum-visa-credit-card-1777377427.png",
+      "bytes": 22912,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "indusindavios-platinum-visa-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IndusInd EazyDiner Platinum Rupay Credit Card": {
+      "filename": "indusind-eazydiner-platinum-rupay-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/eazydiner-indusind-bank-credit-card-1747829677.png",
+      "bytes": 23612,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "eazydiner-indusind-bank-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IndusInd Legend Credit Card": {
+      "filename": "indusind-legend-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indusind-legend-credit-card-1740289291.png",
+      "bytes": 22911,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indusind-legend-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IndusInd Platinum Aura Edge Credit Card": {
+      "filename": "indusind-platinum-aura-edge-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indusind-platinum-aura-edge-credit-card-1743763944.png",
+      "bytes": 23284,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indusind-platinum-aura-edge-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IndusInd Platinum Credit Card": {
+      "filename": "indusind-platinum-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indusind-platinum-credit-card-1740289329.png",
+      "bytes": 23295,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indusind-platinum-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IndusInd Platinum Rupay Credit Card": {
+      "filename": "indusind-platinum-rupay-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indusind-rupay-platinum-credit-card-exp-020625-1748860741.png",
+      "bytes": 24807,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indusind-rupay-platinum-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Indusind Tiger Credit Card": {
+      "filename": "indusind-tiger-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/indusind-tiger-credit-card-1740289352.png",
+      "bytes": 22719,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "indusind-tiger-credit",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "IOB Zet FD Credit Card": {
+      "filename": "iob-zet-fd-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbm-iob-zet-fd-credit-card-1778665122.png",
+      "bytes": 92763,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbm-iob-zet-fd-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Jaypore": {
+      "filename": "jaypore.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/jaypore-coupons.png",
+      "bytes": 3111,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "jaypore-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "JiViSa": {
+      "filename": "jivisa.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/jivisa-offers-1758697610.png",
+      "bytes": 91404,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "jivisa-offers",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming",
+        "Min 50% Cashback"
+      ]
+    },
+    "Kama Ayurveda": {
+      "filename": "kama-ayurveda.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kamaayurveda-coupons-1726052887.png",
+      "bytes": 9065,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kama-ayurveda-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Kapiva": {
+      "filename": "kapiva.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kapiva-coupons-1735636283.jpg",
+      "bytes": 31386,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "kapiva-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Kayak Flights": {
+      "filename": "kayak-flights.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kayak-flights-coupons-1743598836.png",
+      "bytes": 8083,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kayak-flights-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Kayak Hotels": {
+      "filename": "kayak-hotels.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kayak-hotels-coupons-1743598854.png",
+      "bytes": 8223,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kayak-hotels-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Kerala Ayurveda": {
+      "filename": "kerala-ayurveda.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kerala-ayurveda-coupons-1775652933.png",
+      "bytes": 52531,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kerala-ayurveda-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Kimti": {
+      "filename": "kimti.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kimti-coupons-1764244745.png",
+      "bytes": 15651,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kimti-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "kindlife": {
+      "filename": "kindlife.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kindlife-coupons-1735627247.jpg",
+      "bytes": 35928,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "kindlife-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Kohler": {
+      "filename": "kohler.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kohler-coupons-1781690818.png",
+      "bytes": 32225,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kohler-coupons",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen",
+        "New on CashKaro"
+      ]
+    },
+    "Koparo Clean": {
+      "filename": "koparo-clean.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/koparoclean-coupons-1735633997.jpg",
+      "bytes": 52140,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "koparoclean-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Home & Kitchen"
+      ]
+    },
+    "Kotak 811 Classic Savings Account": {
+      "filename": "kotak-811-classic-savings-account.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kotak-811-coupons-1787562623.png",
+      "bytes": 31245,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kotak-811-coupons",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Kotak Air Credit Card": {
+      "filename": "kotak-air-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kotak-air-credit-card-1781518991.png",
+      "bytes": 27613,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kotak-air-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Kotak Air+ Credit Card": {
+      "filename": "kotak-air-plus-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kotak-air-plus-credit-card-1781521088.png",
+      "bytes": 28720,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kotak-air-plus-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Kotak Cashback Plus Credit Card": {
+      "filename": "kotak-cashback-plus-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kotak-cashback-plus-credit-card-1774348884.png",
+      "bytes": 24063,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "kotak-cashback-plus-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Kotak League Platinum Credit Card": {
+      "filename": "kotak-league-platinum-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kotak-league-platinum-credit-card-1774347914.png",
+      "bytes": 29652,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kotak-league-platinum-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Kotak811 Super Savings Account": {
+      "filename": "kotak811-super-savings-account.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kotak-811-coupons-1781782995.png",
+      "bytes": 15853,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kotak811-super-savings-account",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Krafted Millets": {
+      "filename": "krafted-millets.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/krafted-millets-coupons-1772177409.png",
+      "bytes": 29456,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "krafted-millets-coupons",
+      "store_id": null,
+      "categories": [
+        "Food & Grocery"
+      ]
+    },
+    "Kredit.Pe Yes Bank LTF UPI Credit Card": {
+      "filename": "kredit-pe-yes-bank-ltf-upi-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/yesbank-ace-credit-card-test-1755867138.png",
+      "bytes": 31198,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "yesbank-ace-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Lavie": {
+      "filename": "lavie.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/lavie-coupons-1782210859.png",
+      "bytes": 15717,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "lavie-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion",
+        "New on CashKaro"
+      ]
+    },
+    "Levis": {
+      "filename": "levis.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/levis-coupons-1775039998.jpg",
+      "bytes": 40574,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "levis-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Libas": {
+      "filename": "libas.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/libas-coupons-1735642094.jpg",
+      "bytes": 44687,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "libas-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Linen Club": {
+      "filename": "linen-club.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/linen-club-coupons-1779878405.png",
+      "bytes": 18238,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "linen-club-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Loophoop": {
+      "filename": "loophoop.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/loophoop-coupons-1777465898.png",
+      "bytes": 73298,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "loophoop-coupons",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "Lucira Jewelry": {
+      "filename": "lucira-jewelry.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/lucira-jewelry-coupons-1786961616.png",
+      "bytes": 14418,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "lucira-jewelry-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion",
+        "New on CashKaro"
+      ]
+    },
+    "MakeMyTrip Hotels": {
+      "filename": "makemytrip-hotels.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/makemytrip-hotels-1743598908.png",
+      "bytes": 18642,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "makemytrip-hotels",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Malaysia Airlines": {
+      "filename": "malaysia-airlines.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/malaysia-airlines-coupons-test-1762167435.png",
+      "bytes": 69093,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "malaysia-airlines-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Marks & Spencer": {
+      "filename": "marks-and-spencer.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/marks-spencer-coupons-1775202385.png",
+      "bytes": 3142,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "marks-spencer-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "mCaffeine": {
+      "filename": "mcaffeine.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/mcaffeine-coupons-1735628969.jpg",
+      "bytes": 44768,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "mcaffeine-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Medibuddy Labs": {
+      "filename": "medibuddy-labs.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/medibuddy-labs-coupons-1735636446.jpg",
+      "bytes": 49500,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "medibuddy-labs-coupons",
+      "store_id": null,
+      "categories": [
+        "Pharmacy"
+      ]
+    },
+    "Milton": {
+      "filename": "milton.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/milton-coupons-test-1782725946.png",
+      "bytes": 78565,
+      "width": 760,
+      "height": 353,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "milton-coupons",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "Mivi": {
+      "filename": "mivi.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/mivi-coupons-test-1676437228.png",
+      "bytes": 5841,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "mivi-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Moglix": {
+      "filename": "moglix.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/moglix-coupons-1765950319.png",
+      "bytes": 38011,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "moglix-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Money View Personal Loan": {
+      "filename": "money-view-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/money-view-personal-loan-test-1764655200.png",
+      "bytes": 49033,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "money-view-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Mpokket  Personal Loan": {
+      "filename": "mpokket-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/mpokket-coupons-1742539340.png",
+      "bytes": 41720,
+      "width": 761,
+      "height": 353,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "mpokket-coupons",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "MuscleBlaze": {
+      "filename": "muscleblaze.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/muscleblaze-coupon-codes-1735638355.jpg",
+      "bytes": 35066,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "muscleblaze-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Health & Wellness"
+      ]
+    },
+    "MuscleTech": {
+      "filename": "muscletech.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/muscletech-coupon-1735638548.jpg",
+      "bytes": 60119,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "muscletech-coupon",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Muthoot Fincorp Business Loan": {
+      "filename": "muthoot-fincorp-business-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/muthoot-fincorp-business-loan-1784629728.png",
+      "bytes": 72561,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "muthoot-fincorp-business-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "My Muse": {
+      "filename": "my-muse.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/my-muse-coupons-1774958169.png",
+      "bytes": 5172,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "my-muse-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Myntra": {
+      "filename": "myntra.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/myntra-1735792893.jpg",
+      "bytes": 36822,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "myntra",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Fashion"
+      ]
+    },
+    "Nature 4 Nature": {
+      "filename": "nature-4-nature.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nature4nature-coupons-1750679015.png",
+      "bytes": 29838,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nature4nature-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming",
+        "Min 50% Cashback"
+      ]
+    },
+    "Neemans": {
+      "filename": "neemans.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/neemans-coupons-1759123090.png",
+      "bytes": 20285,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "neemans-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Netmeds": {
+      "filename": "netmeds.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/netmeds-coupons-1735633034.jpg",
+      "bytes": 34390,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "netmeds-coupons",
+      "store_id": null,
+      "categories": [
+        "Pharmacy"
+      ]
+    },
+    "Neuherbs": {
+      "filename": "neuherbs.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/neuherbs-coupons-1735635928.jpg",
+      "bytes": 37426,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "neuherbs-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "NeuroGum": {
+      "filename": "neurogum.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/neurogum-coupons-test-1730197761.png",
+      "bytes": 8194,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "neurogum-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Min 50% Cashback",
+        "Health & Wellness"
+      ]
+    },
+    "Nippon Paint FX 10": {
+      "filename": "nippon-paint-fx-10.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nippon-paint-fx-10-coupons-1776075407.png",
+      "bytes": 65160,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nippon-paint-fx-10-coupons",
+      "store_id": null,
+      "categories": [
+        "Min 50% Cashback"
+      ]
+    },
+    "Niyo Global": {
+      "filename": "niyo-global.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/niyo-global-cards-1781693756.png",
+      "bytes": 24849,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "niyo-global-cards",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Nourish Mantra": {
+      "filename": "nourish-mantra.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nourish-mantra-coupons--1767607170.png",
+      "bytes": 19482,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nourish-mantra-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "NRoute": {
+      "filename": "nroute.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nroute-coupons-1784790241.png",
+      "bytes": 61850,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nroute-coupons",
+      "store_id": null,
+      "categories": [
+        "Min 50% Cashback",
+        "Health & Wellness"
+      ]
+    },
+    "Nua": {
+      "filename": "nua.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nua-coupon-1761802164.png",
+      "bytes": 12179,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "nua-coupon",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Nutrabay": {
+      "filename": "nutrabay.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nutrabay-offers-test-1700645369.png",
+      "bytes": 5144,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nutrabay-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Nutriburst": {
+      "filename": "nutriburst.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nutriburst-india-coupons-test-1750417964.png",
+      "bytes": 37821,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nutriburst-india-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Nutslane": {
+      "filename": "nutslane.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nutslane-coupons-1782547156.png",
+      "bytes": 19133,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nutslane-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Food & Grocery",
+        "New on CashKaro"
+      ]
+    },
+    "Nveda": {
+      "filename": "nveda.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/nveda-coupons-1782454098.png",
+      "bytes": 68077,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "nveda-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness",
+        "New on CashKaro"
+      ]
+    },
+    "Olyv Personal Loan": {
+      "filename": "olyv-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/smartcoin-coupons-1736927951.png",
+      "bytes": 10506,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "smartcoin-coupons",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Oman Air": {
+      "filename": "oman-air.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/oman-air-coupons-test-1742290102.png",
+      "bytes": 29828,
+      "width": 761,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "oman-air-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "OPPO": {
+      "filename": "oppo.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/oppo-coupons-test-1754396635.png",
+      "bytes": 2225,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "oppo-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics",
+        "Mobiles"
+      ]
+    },
+    "Ounce Organics": {
+      "filename": "ounce-organics.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ounce-organics-1762249165.png",
+      "bytes": 37745,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "ounce-organics",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming",
+        "Min 50% Cashback"
+      ]
+    },
+    "Oziva": {
+      "filename": "oziva.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/oziva-coupons-1784792998.png",
+      "bytes": 16166,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "oziva-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Pepperfry": {
+      "filename": "pepperfry.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/pepperfry-1735635195.jpg",
+      "bytes": 42727,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "pepperfry",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "Perfora": {
+      "filename": "perfora.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/perfora-coupons-1765540962.jpg",
+      "bytes": 11289,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "perfora-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "PharmEasy Diagnostics": {
+      "filename": "pharmeasy-diagnostics.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/pharmeasy-diagnostics-1777374838.png",
+      "bytes": 54290,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "pharmeasy-diagnostics",
+      "store_id": null,
+      "categories": [
+        "Pharmacy"
+      ]
+    },
+    "Poonawalla Fincorp Personal Loan": {
+      "filename": "poonawalla-fincorp-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/poonawala-instant-loan-1743414880.png",
+      "bytes": 70269,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "poonawala-instant-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Prefr Personal Loan": {
+      "filename": "prefr-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/prefr-coupons-1744201380.png",
+      "bytes": 24195,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "prefr-coupons",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Protium Business Loan": {
+      "filename": "protium-business-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/protium-loans-1752749905.png",
+      "bytes": 13272,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "protium-loans",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "PTE": {
+      "filename": "pte.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/pte-coupon-codes-1754897599.png",
+      "bytes": 49045,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "pte-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "Pure Nutrition": {
+      "filename": "pure-nutrition.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/pure-nutrition-coupons-1764913067.png",
+      "bytes": 55552,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "pure-nutrition-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Qatar Airways": {
+      "filename": "qatar-airways.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/qatar-airways-coupons-1777463107.jpg",
+      "bytes": 43841,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "qatar-airways-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "R for Rabbit": {
+      "filename": "r-for-rabbit.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/r-for-rabbit-coupons-new-1784029397.png",
+      "bytes": 43942,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "r-for-rabbit-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular"
+      ]
+    },
+    "Radisson Hotels": {
+      "filename": "radisson-hotels.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/radisson-blu-coupons-test-1749532752.png",
+      "bytes": 14616,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "radisson-hotel-benefits",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Rage Coffee": {
+      "filename": "rage-coffee.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rage-coffee-coupons-1782382739.png",
+      "bytes": 18310,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "rage-coffee-coupons",
+      "store_id": null,
+      "categories": [
+        "Food & Grocery",
+        "New on CashKaro"
+      ]
+    },
+    "Ram Fincorp Personal Loan": {
+      "filename": "ram-fincorp-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ram-fincorp-personal-loan-1784805975.png",
+      "bytes": 37497,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "ram-fincorp-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Ramam Group": {
+      "filename": "ramam-group.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ramam-group-coupons-1777966181.jpg",
+      "bytes": 30896,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "ramam-group-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Rasayanam": {
+      "filename": "rasayanam.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rasayanam-coupons-1785739376.png",
+      "bytes": 54715,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "rasayanam-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "RBL Bank BookMyShow Play Credit Card": {
+      "filename": "rbl-bank-bookmyshow-play-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rbl-bank-play-credit-1758192237.png",
+      "bytes": 20947,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "rbl-bank-booksyshow-play-credit",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "RBL Bank Cookies Credit Cards": {
+      "filename": "rbl-bank-cookies-credit-cards.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rbl-bank-cookies-credit-card-test-1756970364.png",
+      "bytes": 19222,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "rbl-bank-cookies-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "RBL Bank IRCTC Credit Card": {
+      "filename": "rbl-bank-irctc-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rbl-bank-irctc-credit-card-1746796079.png",
+      "bytes": 19305,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "rbl-bank-irctc-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "RBL Bank Shoprite Credit Card": {
+      "filename": "rbl-bank-shoprite-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rbl-bank-shoprite-credit-card-1740289410.png",
+      "bytes": 18490,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "rbl-bank-shoprite-credit",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "RBL Bank World Safari Credit Card": {
+      "filename": "rbl-bank-world-safari-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rbl-bank--world-safari-credit-card-test-1756969940.png",
+      "bytes": 19462,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "rbl-bank-world-safari-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "realme": {
+      "filename": "realme.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/realme-offers-1735625309.jpg",
+      "bytes": 53461,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "realme-offers",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Electronics",
+        "Mobiles"
+      ]
+    },
+    "Reliance Digital": {
+      "filename": "reliance-digital.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/reliancedigital-coupons-1754560587.png",
+      "bytes": 21437,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "reliancedigital-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Electronics",
+        "Mobiles"
+      ]
+    },
+    "Rigo": {
+      "filename": "rigo.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/rigo-coupons-1767702988.png",
+      "bytes": 11080,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "rigo-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Ruhe": {
+      "filename": "ruhe.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/ruhe-coupons-1767001581.png",
+      "bytes": 35515,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "ruhe-coupons",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "SalarySe": {
+      "filename": "salaryse.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/salaryse-coupons-test-1783665209.png",
+      "bytes": 25385,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "cub-salaryse-level-up-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Salty": {
+      "filename": "salty.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/salty-coupon-codes-1735648114.jpg",
+      "bytes": 25450,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "salty-coupon-codes",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Sanskruti Homes": {
+      "filename": "sanskruti-homes.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sanskruti-homes-coupons-1780480450.png",
+      "bytes": 63502,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sanskruti-homes-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "SBI BPCL Credit Card": {
+      "filename": "sbi-bpcl-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-bpcl-credit-card-1740289456.png",
+      "bytes": 21556,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbi-bpcl-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI BPCL Octane Credit Card": {
+      "filename": "sbi-bpcl-octane-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-bpcl-octane-credit-card-1766055601.png",
+      "bytes": 23501,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbi-bpcl-octane-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI Cashback Credit Card": {
+      "filename": "sbi-cashback-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-cashback-card-1759465154.png",
+      "bytes": 23406,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbi-cashback-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI Elite Credit Card": {
+      "filename": "sbi-elite-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-elite-credit-card-1740289541.png",
+      "bytes": 20767,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbi-elite-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI Flipkart Credit Card": {
+      "filename": "sbi-flipkart-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-flipkart-credit-card-1767875438.png",
+      "bytes": 22010,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "flipkart-sbi-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI IRCTC Rupay Credit Card": {
+      "filename": "sbi-irctc-rupay-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-irctc-credit-card-1740289474.png",
+      "bytes": 23414,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbi-irctc-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI Miles Credit Card": {
+      "filename": "sbi-miles-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-miles-credit-card-1740289524.png",
+      "bytes": 21668,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbi-miles-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI Prime Credit Card": {
+      "filename": "sbi-prime-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbi-prime-card-1740289485.png",
+      "bytes": 21521,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sbi-prime-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI Simply Click Credit Card": {
+      "filename": "sbi-simply-click-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/simply-click-sbi-card-1740289499.png",
+      "bytes": 23511,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "simply-click-sbi-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBI Simply Save Credit Card": {
+      "filename": "sbi-simply-save-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/simply-save-sbi-card-1740289511.png",
+      "bytes": 23652,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "simply-save-sbi-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "SBM ZET Credit Card": {
+      "filename": "sbm-zet-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/sbm-zet-credit-card-1762508780.png",
+      "bytes": 13705,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "sbm-zet-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Scapia Co-Branded Credit Card": {
+      "filename": "scapia-co-branded-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/federal-bank-scapia-credit-card-offer-1770186828.png",
+      "bytes": 25477,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "federal-bank-scapia-credit-card-offer",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "ShopClues": {
+      "filename": "shopclues.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/shopclues-coupons-1735626387.jpg",
+      "bytes": 36164,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "shopclues-coupons",
+      "store_id": null,
+      "categories": [
+        "Departmental"
+      ]
+    },
+    "Shopsy": {
+      "filename": "shopsy.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/shopsy-coupons-test-1691651556.png",
+      "bytes": 2589,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "shopsy-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Departmental"
+      ]
+    },
+    "Shyaway": {
+      "filename": "shyaway.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/shyaway-coupons-1735646185.jpg",
+      "bytes": 46039,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "shyaway-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Sirona": {
+      "filename": "sirona.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/thesirona-coupons-1780659344.png",
+      "bytes": 2652,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "sirona-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Skyscanner": {
+      "filename": "skyscanner.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/skyscanner-coupons-1778240653.png",
+      "bytes": 22919,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "skyscanner-hotels-promo-code",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "Soulflower": {
+      "filename": "soulflower.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/soulflower-coupons-1683627439.jpg",
+      "bytes": 11125,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "soulflower-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "STRCH": {
+      "filename": "strch.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/strch-coupons-1735648158.jpg",
+      "bytes": 33856,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "strch-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Swiss Beauty": {
+      "filename": "swiss-beauty.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/swiss-beauty-coupons-1736340607.jpg",
+      "bytes": 33123,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "swiss-beauty-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Tata Capital Personal Loan": {
+      "filename": "tata-capital-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tataneu-personal-loan-1743487475.png",
+      "bytes": 38592,
+      "width": 761,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "tataneu-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Tata CLiQ": {
+      "filename": "tata-cliq.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tatacliq-coupons-1632828732.png",
+      "bytes": 3582,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "tatacliq-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion",
+        "Departmental"
+      ]
+    },
+    "Tata Neu HDFC Bank Credit Card": {
+      "filename": "tata-neu-hdfc-bank-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tata-neu-credit-card-offers-1723027897.png",
+      "bytes": 14210,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "tata-neu-credit-card-offers",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Tata Neu Infinity SBI Credit Card": {
+      "filename": "tata-neu-infinity-sbi-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tata-neu-infinity-sbi-credit-card-1773726015.png",
+      "bytes": 22876,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "tata-neu-infinity-sbi-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards",
+        "New on CashKaro"
+      ]
+    },
+    "Tata Neu Plus SBI Credit Card": {
+      "filename": "tata-neu-plus-sbi-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tata-neu-plus-sbi-credit-card-1773726607.png",
+      "bytes": 23182,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "tata-neu-plus-sbi-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards",
+        "New on CashKaro"
+      ]
+    },
+    "The Bear House": {
+      "filename": "the-bear-house.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/the-bear-house-coupons-1786597014.png",
+      "bytes": 18719,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "the-bear-house-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "The Derma Co": {
+      "filename": "the-derma-co.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/thedermaco-coupons-1735635861.jpg",
+      "bytes": 37693,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "thedermaco-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming"
+      ]
+    },
+    "The Hatke": {
+      "filename": "the-hatke.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/the-hatke-coupons-1772024073.png",
+      "bytes": 33731,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "the-hatke-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "The Luxury Closet": {
+      "filename": "the-luxury-closet.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/the-luxury-closet-coupons-1735641199.jpg",
+      "bytes": 27121,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "the-luxury-closet-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "The Man Company": {
+      "filename": "the-man-company.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/themancompany-coupons-hide-1735630188.jpg",
+      "bytes": 33571,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "themancompany-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "The Moms Co": {
+      "filename": "the-moms-co.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/the-moms-co-coupons-1781244629.png",
+      "bytes": 81248,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "the-moms-co-coupons",
+      "store_id": null,
+      "categories": [
+        "New on CashKaro"
+      ]
+    },
+    "The Pant Project": {
+      "filename": "the-pant-project.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/the-pant-project-coupons-1778845765.png",
+      "bytes": 8958,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "the-pant-project-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Tiaraa": {
+      "filename": "tiaraa.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tiaraa-coupons-1735647566.jpg",
+      "bytes": 26683,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "tiaraa-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Times Prime": {
+      "filename": "times-prime.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/times-prime-coupons-1735635238.jpg",
+      "bytes": 44789,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "times-prime-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular"
+      ]
+    },
+    "Titan Skinn": {
+      "filename": "titan-skinn.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/titan-skinn-coupons-1767784848.png",
+      "bytes": 10806,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "titan-skinn-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "TM Perfumes": {
+      "filename": "tm-perfumes.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tm-perfumes-coupons-1782732463.png",
+      "bytes": 12258,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "tm-perfumes-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming",
+        "New on CashKaro"
+      ]
+    },
+    "TOEFL": {
+      "filename": "toefl.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/toefl-coupon-code-1766483535.png",
+      "bytes": 24797,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "toefl-coupon-code",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "TripAdvisor": {
+      "filename": "tripadvisor.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/tripadvisor-coupons-1735638502.jpg",
+      "bytes": 35343,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "tripadvisor-coupons-cb",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "True Elements": {
+      "filename": "true-elements.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/true-elements-coupons-1735638532.jpg",
+      "bytes": 37001,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "true-elements-coupons",
+      "store_id": null,
+      "categories": [
+        "Food & Grocery"
+      ]
+    },
+    "TrueBasics": {
+      "filename": "truebasics.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/truebasics-coupons-1735638385.jpg",
+      "bytes": 30950,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "truebasics-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "Truemeds": {
+      "filename": "truemeds.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/truemeds-coupon-code-1735633410.jpg",
+      "bytes": 42519,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "truemeds-coupon-code",
+      "store_id": null,
+      "categories": [
+        "Pharmacy"
+      ]
+    },
+    "Udemy": {
+      "filename": "udemy.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/udemy-coupons-1735637447.jpg",
+      "bytes": 34715,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "udemy-coupons",
+      "store_id": null,
+      "categories": [
+        "Education"
+      ]
+    },
+    "Uni GoldX Credit Card": {
+      "filename": "uni-goldx-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/uni-goldx-credit-card-1778750640.png",
+      "bytes": 11494,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "uni-goldx-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Uniqlo": {
+      "filename": "uniqlo.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/uniqlo-coupons-1735647469.jpg",
+      "bytes": 54183,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "uniqlo-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "University Living": {
+      "filename": "university-living.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/university-living-coupons-1735639372.jpg",
+      "bytes": 42969,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "university-living-coupons",
+      "store_id": null,
+      "categories": [
+        "Flights & Hotels"
+      ]
+    },
+    "UPI Credit Card on KIWI": {
+      "filename": "upi-credit-card-on-kiwi.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/kiwi-credit-card-offers-1759329211.png",
+      "bytes": 26277,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "kiwi-credit-card-offers",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Uppercase": {
+      "filename": "uppercase.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/uppercase-coupons-test-1697695220.png",
+      "bytes": 7057,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "uppercase",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Whirlpool": {
+      "filename": "whirlpool.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/whirlpool-coupons-1781766610.png",
+      "bytes": 13950,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "whirlpool-coupons",
+      "store_id": null,
+      "categories": [
+        "Electronics"
+      ]
+    },
+    "Wonderchef": {
+      "filename": "wonderchef.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/wonderchef-coupons-1765370776.png",
+      "bytes": 27426,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "wonderchef-coupons",
+      "store_id": null,
+      "categories": [
+        "Home & Kitchen"
+      ]
+    },
+    "World of Asaya": {
+      "filename": "world-of-asaya.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/world-of-asaya-coupons-1782293862.png",
+      "bytes": 20943,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "world-of-asaya-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Beauty & Grooming"
+      ]
+    },
+    "WoW": {
+      "filename": "wow.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/buywow-coupons-1740393789.png",
+      "bytes": 45694,
+      "width": 761,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "buywow-coupons",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "XYXX Crew": {
+      "filename": "xyxx-crew.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/xyxx-discount-code-1735643105.jpg",
+      "bytes": 33571,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "xyxx-discount-code",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Yaan Man": {
+      "filename": "yaan-man.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/yaan-man-mens-makeup-test-1751362519.png",
+      "bytes": 17201,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "yaan-man-mens-makeup",
+      "store_id": null,
+      "categories": [
+        "Beauty & Grooming"
+      ]
+    },
+    "Yes Bank Elite+ Credit Card": {
+      "filename": "yes-bank-elite-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/yesbank-elite-plus-credit-card-1764140111.png",
+      "bytes": 29146,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "yes-bank-elite-plus-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Yes Bank Pop-Club Credit Card": {
+      "filename": "yes-bank-pop-club-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/yes-bank-popclub-credit-card-1771480308.png",
+      "bytes": 14162,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "jpeg",
+      "extension_matches_format": false,
+      "unique_identifier": "yes-bank-popclub-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Yes Bank Select Credit Card": {
+      "filename": "yes-bank-select-credit-card.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/yesbank-select-credit-card-1764138749.png",
+      "bytes": 30026,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "yes-bank-select-credit-card",
+      "store_id": null,
+      "categories": [
+        "Credit Cards"
+      ]
+    },
+    "Zandu Care": {
+      "filename": "zandu-care.jpg",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/zanducare-coupons-1735638623.jpg",
+      "bytes": 43212,
+      "width": 380,
+      "height": 176,
+      "format_from_header": "jpeg",
+      "extension_matches_format": true,
+      "unique_identifier": "zanducare-coupons",
+      "store_id": null,
+      "categories": [
+        "Health & Wellness"
+      ]
+    },
+    "ZapCash Personal Loan": {
+      "filename": "zapcash-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/zapcash-pesonal-loan-coupons-1784802285.png",
+      "bytes": 44971,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "zapcash-personal-loan",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    },
+    "Zoff": {
+      "filename": "zoff.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/zoff-coupons-1763718588.png",
+      "bytes": 40876,
+      "width": 760,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "zoff-coupons",
+      "store_id": null,
+      "categories": [
+        "Most Popular",
+        "Food & Grocery"
+      ]
+    },
+    "Zomato": {
+      "filename": "zomato.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/zomato-coupons1-1776079399.png",
+      "bytes": 4724,
+      "width": 190,
+      "height": 110,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "zomato-coupon",
+      "store_id": null,
+      "categories": [
+        "Food & Grocery"
+      ]
+    },
+    "Zouk": {
+      "filename": "zouk.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/zouk-coupons-1667888577.png",
+      "bytes": 2508,
+      "width": 196,
+      "height": 98,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "zouk-coupons",
+      "store_id": null,
+      "categories": [
+        "Fashion"
+      ]
+    },
+    "Zype Personal Loan": {
+      "filename": "zype-personal-loan.png",
+      "source_url": "https://asset21.ckassets.com/resources/image/stores/zype-test-1742284322.png",
+      "bytes": 15052,
+      "width": 761,
+      "height": 352,
+      "format_from_header": "png",
+      "extension_matches_format": true,
+      "unique_identifier": "zype-coupons",
+      "store_id": null,
+      "categories": [
+        "Loans"
+      ]
+    }
+  },
+  "aliases_homepage_grid_v1": {
+    "_what": "The nine store names the v1 homepage grid asks for, resolved to the files that actually landed. One lookup, no join needed at render time.",
+    "_resolved": 8,
+    "_of": 9,
+    "stores": {
+      "Fraganote": {
+        "site_display_name": "Fraganote",
+        "filename": "fraganote.png",
+        "unique_identifier": "fraganote-coupons",
+        "note": null
+      },
+      "Amazon": {
+        "site_display_name": "Amazon India",
+        "filename": "amazon-india.jpg",
+        "unique_identifier": "amazon",
+        "note": "The requested name and the site's own label differ. The site calls this store \"Amazon India\", so the mechanical filename rule produces \"amazon-india.jpg\" rather than \"amazon.<ext>\"."
+      },
+      "Flipkart": {
+        "site_display_name": "Flipkart CB Affoy",
+        "filename": "flipkart-cb-affoy.png",
+        "unique_identifier": "flipkart",
+        "note": "The requested name and the site's own label differ. The site calls this store \"Flipkart CB Affoy\", so the mechanical filename rule produces \"flipkart-cb-affoy.png\" rather than \"flipkart.<ext>\"."
+      },
+      "AJIO": {
+        "site_display_name": "AJIO",
+        "filename": "ajio.jpg",
+        "unique_identifier": "ajio-coupons",
+        "note": null
+      },
+      "Myntra": {
+        "site_display_name": "Myntra",
+        "filename": "myntra.jpg",
+        "unique_identifier": "myntra",
+        "note": null
+      },
+      "Reliance Digital": {
+        "site_display_name": "Reliance Digital",
+        "filename": "reliance-digital.png",
+        "unique_identifier": "reliancedigital-coupons",
+        "note": null
+      },
+      "Meesho": {
+        "site_display_name": null,
+        "filename": null,
+        "unique_identifier": null,
+        "note": "NOT FOUND on the m-site. Absent from all 306 stores across all 16 category listings, and https://cashkaro.com/stores/meesho and /stores/meesho-coupons both return HTTP 404. It appears in the Android app screenshot only. No logo could be downloaded. See content-gaps.md section 6."
+      },
+      "foxtale": {
+        "site_display_name": "Foxtale",
+        "filename": "foxtale.jpg",
+        "unique_identifier": "foxtale-coupons",
+        "note": "The requested name and the site's own label differ. The site calls this store \"Foxtale\", so the mechanical filename rule produces \"foxtale.jpg\" rather than \"foxtale.<ext>\"."
+      },
+      "The Derma Co": {
+        "site_display_name": "The Derma Co",
+        "filename": "the-derma-co.jpg",
+        "unique_identifier": "thedermaco-coupons",
+        "note": null
+      }
+    }
+  },
+  "near_collisions": [
+    {
+      "derived_filename": "kotak-air-credit-card.png",
+      "rule_applied": "display-name rule collided; fell back to the site unique_identifier",
+      "kept_derived_name": {
+        "store_name": "Kotak Air Credit Card",
+        "unique_identifier": "kotak-air-credit-card",
+        "filename": "kotak-air-credit-card.png"
+      },
+      "renamed": {
+        "store_name": "Kotak Air+ Credit Card",
+        "unique_identifier": "kotak-air-plus-credit-card",
+        "filename": "kotak-air-plus-credit-card.png"
+      }
+    }
+  ],
+  "extension_format_mismatches": [
+    {
+      "store_name": "ASUS",
+      "filename": "asus.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Axis Airtel Rupay Credit Card",
+      "filename": "axis-airtel-rupay-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Axis Bank Indigo Credit Card",
+      "filename": "axis-bank-indigo-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Axis Bank Personal Loan",
+      "filename": "axis-bank-personal-loan.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Axis Cashback Credit Card",
+      "filename": "axis-cashback-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Axis Privilege Amex Credit Card",
+      "filename": "axis-privilege-amex-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Axis Rewards Visa Credit Card",
+      "filename": "axis-rewards-visa-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "BHIM UPI",
+      "filename": "bhim-upi.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "BOBCARD Eterna Credit Card",
+      "filename": "bobcard-eterna-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Cleartrip Flights",
+      "filename": "cleartrip-flights.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Duolingo",
+      "filename": "duolingo.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Flipkart CB Affoy",
+      "filename": "flipkart-cb-affoy.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Ghar Soaps",
+      "filename": "ghar-soaps.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "GRE",
+      "filename": "gre.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "HDFC Bank BizBlack Credit Card",
+      "filename": "hdfc-bank-bizblack-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "HDFC Bank Diners Club Credit Card",
+      "filename": "hdfc-bank-diners-club-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "IDFC FIRST Earn Credit Card",
+      "filename": "idfc-first-earn-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "IndusInd Avios Platinum Visa Credit Card",
+      "filename": "indusind-avios-platinum-visa-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Kotak Cashback Plus Credit Card",
+      "filename": "kotak-cashback-plus-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Nua",
+      "filename": "nua.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Protium Business Loan",
+      "filename": "protium-business-loan.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "RBL Bank IRCTC Credit Card",
+      "filename": "rbl-bank-irctc-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "RBL Bank World Safari Credit Card",
+      "filename": "rbl-bank-world-safari-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "SBM ZET Credit Card",
+      "filename": "sbm-zet-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    },
+    {
+      "store_name": "Yes Bank Pop-Club Credit Card",
+      "filename": "yes-bank-pop-club-credit-card.png",
+      "extension": "png",
+      "actual_format": "jpeg"
+    }
+  ],
+  "failed_downloads": [],
+  "_counts": {
+    "logos_landed": 309,
+    "distinct_stores_in_harvest": 306,
+    "failed_downloads": 0,
+    "total_bytes": 8907342,
+    "by_format_from_header": {
+      "jpeg": 90,
+      "png": 219
+    },
+    "extension_format_mismatches": 25,
+    "near_collisions": 1,
+    "with_dimensions": 309,
+    "_derivation": "Derived by iterating the logos block and stat-ing each file, not counted by hand.",
+    "logos_from_category_listings": 306,
+    "logos_from_homepage_rail_only": 3,
+    "logos_from_homepage_rail_only_which": [
+      "Acer",
+      "FirstCry",
+      "IGP"
+    ],
+    "stores_with_a_logo_but_no_category": [
+      "Acer",
+      "FirstCry",
+      "IGP"
+    ]
+  }
+}

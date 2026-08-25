@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      viewport-fit=cover so the app can paint under a notch and a home indicator, which is the point
+      of a prototype that is meant to read as an app rather than a page. `maximum-scale` is
+      deliberately NOT set: pinch-zoom is an accessibility affordance and locking it out to stop an
+      accidental zoom is the wrong trade.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0d1117" />
+    <meta name="description" content="A working prototype of CashKaro's activation lifecycle, from the ad to a personalised homepage." />
+    <!-- A demo shared by direct link; search engines have no business finding it (25 Aug, added
+         with the GitHub Pages move — Pages is indexable by default, unlike an unlisted URL). -->
+    <meta name="robots" content="noindex" />
+    <!-- Standalone when saved to a home screen, which is how this should be looked at on a phone. -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>CashKaro activation lifecycle</title>
+    <script type="module" crossorigin src="/ck-journey-live/assets/main-H2gzbCRK.js"></script>
+    <link rel="modulepreload" crossorigin href="/ck-journey-live/assets/TokensBanner-RVSM02y-.js">
+    <link rel="stylesheet" crossorigin href="/ck-journey-live/assets/TokensBanner-DT67MwJR.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
